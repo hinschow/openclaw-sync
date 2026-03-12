@@ -1,0 +1,173 @@
+{
+  "jobs": [
+    {
+      "id": "5dfe27c5-ecc4-4f2f-bf10-42fc74a36232",
+      "name": "模拟盘综合检查 (每2小时 8-22点)",
+      "enabled": true,
+      "createdAtMs": 1771381106207,
+      "updatedAtMs": 1773281111467,
+      "schedule": {
+        "kind": "cron",
+        "expr": "5 8,10,12,14,16,18,20,22 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "执行模拟盘综合检查（短线+长线合并）：\n\n第一步：新闻风控\n1. 用 web_fetch 抓取最新标题（maxChars=1500）：\n   - https://www.aljazeera.com/news/\n   - https://www.coindesk.com/\n2. 执行 `cd /root/.openclaw/workspace/polymarket-tracker && python3 -c \"from simulator.live_sim import load_portfolio; p=load_portfolio(); [print(f'{pos[\\\"market\\\"][:50]} | {pos.get(\\\"strategy\\\",\\\"?\\\")} | ${pos[\\\"size\\\"]}') for pos in p['open_positions']]\"`\n3. 对比新闻和持仓，发现重大利空标注 🔴 紧急\n\n第二步：短线检查\n`cd /root/.openclaw/workspace/polymarket-tracker && python3 -u simulator/live_sim.py short_check`\n\n第三步：长线检查\n`cd /root/.openclaw/workspace/polymarket-tracker && python3 -u simulator/live_sim.py check`\n\n合并结果，有变动（平仓/开仓/紧急新闻）就用 message tool 发送到 telegram target=5689003327，无变动不发。",
+        "timeoutSeconds": 150
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1773288300000,
+        "lastRunAtMs": 1773281100004,
+        "lastStatus": "ok",
+        "lastDurationMs": 11463,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDeliveryStatus": "not-delivered",
+        "lastDelivered": false
+      }
+    },
+    {
+      "id": "1aeb392c-1ff5-432d-b24d-c8e75f1b893a",
+      "agentId": "main",
+      "name": "Session 自动清理+自愈 (每天3:00/15:00)",
+      "enabled": true,
+      "createdAtMs": 1771634858388,
+      "updatedAtMs": 1773257413153,
+      "schedule": {
+        "expr": "30 3,15 * * *",
+        "kind": "cron",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "执行 `bash /root/.openclaw/workspace/scripts/session-cleanup.sh`。如果输出包含 ALERTS 部分，用 message tool 发送结果到 telegram target=5689003327。无告警不发。",
+        "timeoutSeconds": 90
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1773300600000,
+        "lastRunAtMs": 1773257400004,
+        "lastStatus": "ok",
+        "lastDurationMs": 13149,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered"
+      }
+    },
+    {
+      "id": "c58302eb-54d8-4750-9fd6-460d4faa9506",
+      "agentId": "main",
+      "name": "晚报 - 金融&区块链&政治军事新闻 (19:00)",
+      "enabled": true,
+      "createdAtMs": 1770970120378,
+      "updatedAtMs": 1773282458533,
+      "schedule": {
+        "expr": "0 19 * * *",
+        "kind": "cron",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "生成晚报。执行 `cd /root/.openclaw/workspace && python3 -u scripts/enhanced_news.py`，再用 web_fetch 抓 https://www.aljazeera.com/news/ 和 https://github.com/trending 补充。整合为：💰行情 📊财经 🪙加密 🤖AI 🌍国际 💻GitHub(3-5个) 📅明日关注。用 message tool 发送到 telegram target=5689003327。格式：🧠超级大脑晚报|日期。源失败就跳过。\n\n重要：行情速览部分必须包含 RATS 代币价格（从脚本输出的加密货币数据中提取），格式如：◈ RATS $0.0000xx (+x.xx%)。每次都要显示，不能遗漏。",
+        "timeoutSeconds": 180
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1773313200000,
+        "lastRunAtMs": 1773226800004,
+        "lastStatus": "error",
+        "lastDurationMs": 12106,
+        "consecutiveErrors": 8,
+        "lastRunStatus": "error",
+        "lastDeliveryStatus": "unknown",
+        "lastError": "Delivering to Telegram requires target <chatId>"
+      }
+    },
+    {
+      "id": "d390ffb5-4bd1-40e0-aef4-cfe820c48aed",
+      "agentId": "main",
+      "name": "早报 - 金融&区块链&政治军事新闻",
+      "enabled": true,
+      "createdAtMs": 1770970114177,
+      "updatedAtMs": 1773283444816,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "生成早报。执行 `cd /root/.openclaw/workspace && python3 -u scripts/enhanced_news.py`，再用 web_fetch 抓 https://www.aljazeera.com/news/ 和 https://github.com/trending 补充。整合为：💰行情 📊财经 🪙加密 🤖AI 🌍国际 💻GitHub(3-5个) 📅今日关注。用 message tool 发送到 telegram target=5689003327。格式：🧠超级大脑早报|日期。源失败就跳过。\n\n重要：行情速览部分必须包含 RATS 代币价格（从脚本输出的加密货币数据中提取），格式如：◈ RATS $0.0000xx (+x.xx%)。每次都要显示，不能遗漏。",
+        "timeoutSeconds": 180
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1773360000000,
+        "lastRunAtMs": 1773283402299,
+        "lastStatus": "ok",
+        "lastDurationMs": 42517,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDeliveryStatus": "not-delivered",
+        "lastDelivered": false
+      }
+    },
+    {
+      "id": "9f51721b-a66c-4496-aad6-bcf7f04f3ac6",
+      "agentId": "main",
+      "name": "Polymarket 模拟盘日报",
+      "enabled": true,
+      "createdAtMs": 1771090805924,
+      "updatedAtMs": 1773283373328,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "生成模拟盘日报（只读取状态，不做交易）：\n\n执行 `cd /root/.openclaw/workspace/polymarket-tracker && python3 -c \"\nimport json\nfrom collections import defaultdict\nwith open('data/sim_portfolio.json') as f:\n    p = json.load(f)\nopens = p.get('open_positions', [])\nclosed = p.get('closed_positions', [])\nwins = [c for c in closed if c.get('realized_pnl', c.get('pnl', 0)) > 0]\nlosses = [c for c in closed if c.get('realized_pnl', c.get('pnl', 0)) < 0]\ntotal_win = sum(c.get('realized_pnl', c.get('pnl', 0)) for c in wins)\ntotal_loss = sum(c.get('realized_pnl', c.get('pnl', 0)) for c in losses)\nunrealized = sum(pos.get('unrealized_pnl', 0) for pos in opens)\ninvested = sum(pos.get('size', 0) for pos in opens)\ntotal_assets = p['balance'] + invested + unrealized\nwin_rate = len(wins) / len(closed) * 100 if closed else 0\nshort_open = [o for o in opens if o.get('strategy') == 'short_term']\nlong_open = [o for o in opens if o.get('strategy') != 'short_term']\nprint(f'balance:{p[\\\"balance\\\"]:.2f}')\nprint(f'invested:{invested:.2f}')\nprint(f'unrealized:{unrealized:+.2f}')\nprint(f'total:{total_assets:.2f}')\nprint(f'trades:{len(closed)}')\nprint(f'winrate:{win_rate:.1f}')\nprint(f'positions:{len(opens)} (short:{len(short_open)} long:{len(long_open)})')\nfor pos in opens:\n    pnl = pos.get('unrealized_pnl', 0)\n    icon = '✅' if pnl > 0 else '❌' if pnl < -1 else '⬜'\n    print(f'{icon} {pos[\\\"market\\\"][:45]} | {pos.get(\\\"outcome\\\",\\\"?\\\")[:4]} | \\${pos[\\\"size\\\"]} | {pnl:+.2f}')\n\"\n\n用以上输出生成简洁日报，用 message tool 发送到 telegram target=5689003327。格式：🧠 模拟盘日报 | 日期。包含：总资产、余额、胜率、持仓明细。",
+        "timeoutSeconds": 90
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1773367200000,
+        "lastRunAtMs": 1773283333569,
+        "lastStatus": "ok",
+        "lastDurationMs": 39759,
+        "consecutiveErrors": 0,
+        "lastRunStatus": "ok",
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered"
+      }
+    }
+  ],
+  "total": 5,
+  "offset": 0,
+  "limit": 5,
+  "hasMore": false,
+  "nextOffset": null
+}
