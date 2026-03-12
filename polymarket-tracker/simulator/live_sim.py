@@ -28,6 +28,37 @@ MAX_OPEN_POSITIONS = 15  # v12: 40→15 集中仓位
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
 SIM_PORTFOLIO_PATH = os.path.join(DATA_DIR, "sim_portfolio.json")
+
+# ── v12: Telegram 直发 ──
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "5689003327")
+
+
+def notify_telegram(text):
+    """直接通过 Telegram Bot API 发送消息，不依赖 agent"""
+    if not TELEGRAM_BOT_TOKEN:
+        log("  [telegram] TELEGRAM_BOT_TOKEN 未设置，跳过通知")
+        return False
+    try:
+        url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+        # Telegram 消息限制 4096 字符
+        if len(text) > 4000:
+            text = text[:3950] + "\n...(截断)"
+        resp = requests.post(url, json={
+            "chat_id": TELEGRAM_CHAT_ID,
+            "text": text,
+            "parse_mode": "HTML",
+            "disable_web_page_preview": True,
+        }, timeout=10)
+        if resp.status_code == 200:
+            log("  [telegram] 通知已发送")
+            return True
+        else:
+            log(f"  [telegram] 发送失败: {resp.status_code} {resp.text[:100]}")
+            return False
+    except Exception as e:
+        log(f"  [telegram] 发送异常: {e}")
+        return False
 TRADERS_PATH = os.path.join(DATA_DIR, "expanded_traders.json")
 
 INITIAL_BALANCE = 1000.0
@@ -1797,6 +1828,10 @@ def run_short_check():
         report = "\n".join(lines)
         log("\n" + report)
 
+        # v12: 有变动时直接发 Telegram
+        if short_closed:
+            notify_telegram(report)
+
         del market_prices
         gc.collect()
         clear_timeout()
@@ -2314,6 +2349,11 @@ def run_check():
         log(f"  已保存到 {SIM_PORTFOLIO_PATH}")
         log("\n" + report)
 
+        # v12: 有变动时直接发 Telegram
+        has_changes = new_positions or closed_today or stop_losses or take_profits or v8_short_new or v8_short_closed
+        if has_changes:
+            notify_telegram(report)
+
         # 释放大对象
         del activities, signals, market_prices, elite_wallets
         gc.collect()
@@ -2342,6 +2382,49 @@ def run_daily_sim():
     return run_full()
 
 
+def run_watch(interval_seconds=300, max_runtime=7200):
+    """
+    v12: 持续监控模式 — 每 interval_seconds 秒运行一次 short_check。
+    max_runtime 秒后自动退出（默认2小时），配合 cron 每2小时重启。
+    用法: python3 live_sim.py watch [--interval 300] [--runtime 7200]
+    """
+    log(f"👁️ Polymarket 持续监控模式 v12")
+    log(f"  短线检查间隔: {interval_seconds}秒 ({interval_seconds//60}分钟)")
+    log(f"  最大运行时间: {max_runtime}秒 ({max_runtime//3600}小时)")
+    log(f"  Telegram 通知: {'已配置' if TELEGRAM_BOT_TOKEN else '未配置'}")
+    log("")
+
+    start_time = time.time()
+    cycle = 0
+
+    while True:
+        elapsed = time.time() - start_time
+        if elapsed >= max_runtime:
+            log(f"\n⏰ 已运行 {elapsed/3600:.1f} 小时，达到最大运行时间，退出")
+            break
+
+        cycle += 1
+        log(f"\n{'='*40}")
+        log(f"📍 第 {cycle} 轮 | 已运行 {elapsed/60:.0f} 分钟")
+
+        try:
+            run_short_check()
+        except Exception as e:
+            log(f"❌ short_check 异常: {e}")
+            error_msg = f"⚠️ Polymarket 监控异常\n{e}"
+            notify_telegram(error_msg)
+
+        # 等待到下一轮
+        remaining = max_runtime - (time.time() - start_time)
+        if remaining <= 0:
+            break
+        wait = min(interval_seconds, remaining)
+        log(f"  💤 等待 {wait:.0f} 秒...")
+        time.sleep(wait)
+
+    log("👋 监控结束")
+
+
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "full"
     mode = mode.lower().strip()
@@ -2352,7 +2435,18 @@ if __name__ == "__main__":
         run_full()
     elif mode == "short_check":
         run_short_check()
+    elif mode == "watch":
+        # 解析可选参数
+        interval = 300  # 默认5分钟
+        runtime = 7200  # 默认2小时
+        for i, arg in enumerate(sys.argv[2:], 2):
+            if arg == "--interval" and i + 1 < len(sys.argv):
+                interval = int(sys.argv[i + 1])
+            elif arg == "--runtime" and i + 1 < len(sys.argv):
+                runtime = int(sys.argv[i + 1])
+        run_watch(interval_seconds=interval, max_runtime=runtime)
     else:
         log(f"❌ 未知模式: {mode}")
-        log("用法: python3 live_sim.py [full|check|short_check]")
+        log("用法: python3 live_sim.py [full|check|short_check|watch]")
+        log("  watch 选项: --interval 300 --runtime 7200")
         sys.exit(1)
