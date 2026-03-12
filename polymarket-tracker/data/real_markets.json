@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "1308327",
+    "condition_id": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+    "question": "Government shutdown on Saturday?",
+    "slug": "another-us-government-shutdown-by-february-14",
+    "category": "",
+    "end_date": "2026-02-14T00:00:00Z",
+    "active": true,
+    "liquidity": 99903.92128,
+    "volume": 8191631.315192,
+    "volume_24h": 5932125.001122994,
+    "outcomes": {
+      "Yes": {
+        "price": 0.2195,
+        "token_id": "7648925155044397287047798308912067661131447591491670430094875295487039626662"
+      },
+      "No": {
+        "price": 0.7805,
+        "token_id": "43946269812975261940442841140057396362355013850035195910637438338242851933505"
+      }
+    }
+  },
+  {
+    "id": "572473",
+    "condition_id": "0x46d40e851b24d9b0af4bc1942ccd86439cae82a9011767da14950df0ad997adf",
+    "question": "Will Trump nominate Judy Shelton as the next Fed chair?",
+    "slug": "will-trump-nominate-judy-shelton-as-the-next-fed-chair",
+    "category": "",
+    "end_date": "2026-12-31T00:00:00Z",
+    "active": true,
+    "liquidity": 2697046.02401,
+    "volume": 77780790.664985,
+    "volume_24h": 2882914.2853590045,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0345,
+        "token_id": "5031084282167950494806674428243037744881029417420880897305642929037077494331"
+      },
+      "No": {
+        "price": 0.9655,
+        "token_id": "20939351535690701474621316837957321939118947084394902825750156021315806001424"
+      }
+    }
+  },
+  {
+    "id": "1303357",
+    "condition_id": "0x73acf1ef075d83bedb89e5c32e9083477adbde563cd0d76b78b56defdf2d6438",
+    "question": "Will Ethereum reach $4,400 in February?",
+    "slug": "will-ethereum-reach-4400-in-february-2026",
+    "category": "",
+    "end_date": "2026-03-01T05:00:00Z",
+    "active": true,
+    "liquidity": 244140.23556,
+    "volume": 6268046.809113,
+    "volume_24h": 2783980.2347700004,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0025,
+        "token_id": "108999384188108521715304668689630764454260618208482429430624780380952570648070"
+      },
+      "No": {
+        "price": 0.9975,
+        "token_id": "248267515227980084974200788604003065853520856444892385895516545819840653679"
+      }
+    }
+  },
+  {
+    "id": "1273610",
+    "condition_id": "0xb02e8bc0b915c7d6fc79363f84ca301edeb3c5cd7a7c30cf9517cb4a49a96e35",
+    "question": "US strikes Iran by February 13, 2026?",
+    "slug": "us-strikes-iran-by-february-13-2026-721-759-497-124-197-797-992-641-418-789-676-262-791-574-169-647-275-931",
+    "category": "",
+    "end_date": "2026-01-31T00:00:00Z",
+    "active": true,
+    "liquidity": 251664.10802,
+    "volume": 13059361.163378,
+    "volume_24h": 1828393.0789250003,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0065,
+        "token_id": "113967255285729983096369270222893793194300185054195401492031449617986822928022"
+      },
+      "No": {
+        "price": 0.9935,
+        "token_id": "82502710596437163348308378521149082521990735368840065096352406278737871407553"
+      }
+    }
+  },
+  {
+    "id": "654412",
+    "condition_id": "0xdeb615a52cd114e5aa27d8344ae506a72bea81f6ed13f5915f050b615a193c20",
+    "question": "Will the Fed decrease interest rates by 50+ bps after the March 2026 meeting?",
+    "slug": "will-the-fed-decrease-interest-rates-by-50-bps-after-the-march-2026-meeting",
+    "category": "",
+    "end_date": "2026-03-18T00:00:00Z",
+    "active": true,
+    "liquidity": 1437160.27544,
+    "volume": 39315421.094494,
+    "volume_24h": 1723031.964699999,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0065,
+        "token_id": "46553455570564517989191023458705371521436514261892866503067981558938998232024"
+      },
+      "No": {
+        "price": 0.9935,
+        "token_id": "48458075019957098166340475646923389496510427632693703161736892736757168972646"
+      }
+    }
+  },
+  {
+    "id": "654414",
+    "condition_id": "0x257b18205f908aef01ef2d1d50e6fea7d29cf5486fe04031d8b101394476faed",
+    "question": "Will there be no change in Fed interest rates after the March 2026 meeting?",
+    "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-march-2026-meeting",
+    "category": "",
+    "end_date": "2026-03-18T00:00:00Z",
+    "active": true,
+    "liquidity": 844338.657,
+    "volume": 14171481.33622,
+    "volume_24h": 1624556.238506002,
+    "outcomes": {
+      "Yes": {
+        "price": 0.925,
+        "token_id": "102559817034631022221500208641784929295731053857601013029449249654006364919935"
+      },
+      "No": {
+        "price": 0.075,
+        "token_id": "114350083305515876605975857295292847572608542141507135338338719165921048222327"
+      }
+    }
+  },
+  {
+    "id": "1303355",
+    "condition_id": "0x5e5c9dfaf695371a0cc321b47b35f66a6dbd1482f0503526603d2bd2a91bfdc7",
+    "question": "Will Bitcoin reach $150,000 in February?",
+    "slug": "will-bitcoin-reach-150k-in-february-2026",
+    "category": "",
+    "end_date": "2026-03-01T05:00:00Z",
+    "active": true,
+    "liquidity": 941216.07081,
+    "volume": 11126057.38739,
+    "volume_24h": 1402903.1086609997,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0025,
+        "token_id": "37297213992198847758335843642137412014662841314020423585709724457305615671955"
+      },
+      "No": {
+        "price": 0.9975,
+        "token_id": "85285091029101061598102453878417748165438482105623263900746828987387745601127"
+      }
+    }
+  },
+  {
+    "id": "1105754",
+    "condition_id": "0x831493dce463d9adcad78c492f2cbec6ecdac31f4e8c5a894fdac68c130549d4",
+    "question": "Will Richard Grenell be the leader of Venezuela end of 2026?",
+    "slug": "will-richard-grenell-be-the-leader-of-venezuela-end-of-2026",
+    "category": "",
+    "end_date": "2026-12-31T00:00:00Z",
+    "active": true,
+    "liquidity": 146735.36699,
+    "volume": 3932357.294163,
+    "volume_24h": 1378049.31,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "63041927234014862550752749844577619438319946530923167906649363118591050055991"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "99054617029958384489254150272985803134625279515281590966555341751627503415683"
+      }
+    }
+  },
+  {
+    "id": "1198423",
+    "condition_id": "0x3488f31e6449f9803f99a8b5dd232c7ad883637f1c86e6953305a2ef19c77f20",
+    "question": "US strikes Iran by February 28, 2026?",
+    "slug": "us-strikes-iran-by-february-28-2026-227-967-547-688-589-491-592-418-452-924-384-915-464-672-196-157-993-596-269-535-381-391-471-256-988-997-296-225-762-973",
+    "category": "",
+    "end_date": "2026-01-31T00:00:00Z",
+    "active": true,
+    "liquidity": 253892.9294,
+    "volume": 14067651.175124,
+    "volume_24h": 1136773.3562130001,
+    "outcomes": {
+      "Yes": {
+        "price": 0.105,
+        "token_id": "110790003121442365126855864076707686014650523258783405996925622264696084778807"
+      },
+      "No": {
+        "price": 0.895,
+        "token_id": "10832696757358093775468120009000761778513405247768868107262967513475277652998"
+      }
+    }
+  },
+  {
+    "id": "572506",
+    "condition_id": "0xc830d19ead001f5378792cc0df36004ddb1b312bb26fbd5c4226aa698c41f808",
+    "question": "Will Trump nominate no one before 2027?",
+    "slug": "will-trump-nominate-no-one-before-2027",
+    "category": "",
+    "end_date": "2026-12-31T00:00:00Z",
+    "active": true,
+    "liquidity": 774807.80425,
+    "volume": 15989684.296628,
+    "volume_24h": 1058870.337626,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0015,
+        "token_id": "75833359692657334554813009963085875753827558821734387462675433166604855152706"
+      },
+      "No": {
+        "price": 0.9985,
+        "token_id": "42270880784115820080612530632637898900663443736800772641647954339878799453518"
+      }
+    }
+  },
+  {
+    "id": "654413",
+    "condition_id": "0xd6c49a94948e365aa74c09eef54d907b7ca534b243c387c375305d5cdd1afef3",
+    "question": "Will the Fed decrease interest rates by 25 bps after the March 2026 meeting?",
+    "slug": "will-the-fed-decrease-interest-rates-by-25-bps-after-the-march-2026-meeting",
+    "category": "",
+    "end_date": "2026-03-18T00:00:00Z",
+    "active": true,
+    "liquidity": 976160.4397,
+    "volume": 13854409.70127,
+    "volume_24h": 1055026.3901619995,
+    "outcomes": {
+      "Yes": {
+        "price": 0.055,
+        "token_id": "62938043365772447095885755955446362343142416536419862840923032141775380249586"
+      },
+      "No": {
+        "price": 0.945,
+        "token_id": "89036168105179001192755120118050209760422683300339582903158940882158509550672"
+      }
+    }
+  },
+  {
+    "id": "1345819",
+    "condition_id": "0x02330ccbfc1a90b7330ed35f27fadb01b64f5e523bfaaa5329ff0da249f836c1",
+    "question": "Will the price of Bitcoin be above $68,000 on February 13?",
+    "slug": "bitcoin-above-68k-on-february-13",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 22500.89082,
+    "volume": 1233522.362243,
+    "volume_24h": 1011004.7045750013,
+    "outcomes": {
+      "Yes": {
+        "price": 0.9935,
+        "token_id": "55558439202698150487746672855322717857013777460388991228050731207297477093591"
+      },
+      "No": {
+        "price": 0.0065,
+        "token_id": "114122158528348187106358562373494432062320303414155555616775600076411897934822"
+      }
+    }
+  },
+  {
+    "id": "1370293",
+    "condition_id": "0x27ecc4bb0990530a44d5747f39232146849e57ed67244edb747cd77bc2e2306c",
+    "question": "Set Handicap: Valentova (-1.5) vs Birrell (+1.5)",
+    "slug": "wta-valento-birrell-2026-02-13-set-handicap-home-1pt5",
+    "category": "",
+    "end_date": "2026-02-20T10:00:00Z",
+    "active": true,
+    "liquidity": 432520.88432,
+    "volume": 1018092.605455,
+    "volume_24h": 971757.1658039999,
+    "outcomes": {
+      "Valentova": {
+        "price": 0.4995,
+        "token_id": "6058757523927660236407317031483641336602902711822264533094288446944446988907"
+      },
+      "Birrell": {
+        "price": 0.5005,
+        "token_id": "51778928024621062005039147274445953224764317359675775292895193158694258856089"
+      }
+    }
+  },
+  {
+    "id": "572480",
+    "condition_id": "0x94947a23e965124fa382e3ff89827b7bb00c2e2f3f9c0b92137e639d4cbfb080",
+    "question": "Will Trump nominate Stephen Miran as the next Fed chair?",
+    "slug": "will-trump-nominate-stephen-miran-as-the-next-fed-chair",
+    "category": "",
+    "end_date": "2026-12-31T00:00:00Z",
+    "active": true,
+    "liquidity": 742027.80774,
+    "volume": 17267515.685876,
+    "volume_24h": 905555.723164,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0025,
+        "token_id": "109742736962312251829429505249844464481009469599654156786681123946719841287723"
+      },
+      "No": {
+        "price": 0.9975,
+        "token_id": "12517852287819593117096773184674818051503519306271068998598322320921621987078"
+      }
+    }
+  },
+  {
+    "id": "1340808",
+    "condition_id": "0xbd103048aef1d720383b2080f86b25ecf95106169e5cbe42ca442cb901c96bc4",
+    "question": "Will SOLV Energy, Inc.'s market cap be greater than $5.4B at market close on IPO day?",
+    "slug": "will-solv-energy-incs-market-cap-be-greater-than-5pt4b-at-market-close-on-ipo-day",
+    "category": "",
+    "end_date": "2026-02-11T00:00:00Z",
+    "active": true,
+    "liquidity": 614135.79909,
+    "volume": 2448326.983066,
+    "volume_24h": 819533.4709060004,
+    "outcomes": {
+      "Yes": {
+        "price": 0.9995,
+        "token_id": "90336172296941541975902989354519466006874640462386768562301005458330079131016"
+      },
+      "No": {
+        "price": 0.0005,
+        "token_id": "12076462287959836618420385790592185776384147955323014266489396204953306617696"
+      }
+    }
+  },
+  {
+    "id": "1345824",
+    "condition_id": "0x58c931c00e31fd20d02aade0c1e287e46a15b6da514c3ac3624e956e41bc45d0",
+    "question": "Will the price of Bitcoin be above $72,000 on February 13?",
+    "slug": "bitcoin-above-72k-on-february-13",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 61219.59337,
+    "volume": 983088.855509,
+    "volume_24h": 792999.0404249999,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "104756358230945600581080149774775022579878993398785877333022959305128527232822"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "63639438919761841058289730115323799339763713395555956710863501275355678776678"
+      }
+    }
+  },
+  {
+    "id": "1309626",
+    "condition_id": "0x1c343aa731d9157ef3380b7edcad65838ff3bc88fee2e567f01b94023abe7c4f",
+    "question": "Will AC Milan win on 2026-02-13?",
+    "slug": "sea-pis-mil-2026-02-13-mil",
+    "category": "",
+    "end_date": "2026-02-13T19:45:00Z",
+    "active": true,
+    "liquidity": 687805.9189,
+    "volume": 1128417.610913,
+    "volume_24h": 786524.0479890003,
+    "outcomes": {
+      "Yes": {
+        "price": 0.635,
+        "token_id": "30553001503132247248790398403155137900445281953640071688088954879314439364430"
+      },
+      "No": {
+        "price": 0.365,
+        "token_id": "41308236010893717248587830261974702819710571144928852500135487861005792026724"
+      }
+    }
+  },
+  {
+    "id": "561254",
+    "condition_id": "0x7f695758278e6d4d9e63df862afa88d664d3402a3d26e4d32ae05121cdbddba6",
+    "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
+    "slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
+    "category": "",
+    "end_date": "2028-11-07T00:00:00Z",
+    "active": true,
+    "liquidity": 1148695.13767,
+    "volume": 18045648.069627,
+    "volume_24h": 765013.8206110002,
+    "outcomes": {
+      "Yes": {
+        "price": 0.008,
+        "token_id": "24863363384036117015867671383779186335047493791693657275104567365292353535818"
+      },
+      "No": {
+        "price": 0.992,
+        "token_id": "44632793419668141561343859504077903947361590865219599333832862239708628173864"
+      }
+    }
+  },
+  {
+    "id": "654415",
+    "condition_id": "0x25aa90b3cd98305e849189b4e8b770fc77fe89bccb7cf9656468414e01145d38",
+    "question": "Will the Fed increase interest rates by 25+ bps after the March 2026 meeting?",
+    "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-march-2026-meeting",
+    "category": "",
+    "end_date": "2026-03-18T00:00:00Z",
+    "active": true,
+    "liquidity": 1679986.48845,
+    "volume": 33519023.807738,
+    "volume_24h": 680413.4493219998,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0065,
+        "token_id": "54073086346734626735797775941991553522163760164405051969883391401961188364109"
+      },
+      "No": {
+        "price": 0.9935,
+        "token_id": "111080671036126109659854287535401661966194360665829017654832975124868412594547"
+      }
+    }
+  },
+  {
+    "id": "1324211",
+    "condition_id": "0x2e56abf38080f33fb82ce3676c03989b7f93fddd6b3deea492e5a523609297a8",
+    "question": "Will Elon Musk post 360-379 tweets from February 6 to February 13, 2026?",
+    "slug": "elon-musk-of-tweets-february-6-february-13-360-379",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 67921.4596,
+    "volume": 1351027.854182,
+    "volume_24h": 671555.9265260019,
+    "outcomes": {
+      "Yes": {
+        "price": 0.9985,
+        "token_id": "95070461496835695425831403077419599356225247743376044933265154432196900019605"
+      },
+      "No": {
+        "price": 0.0015,
+        "token_id": "99692572509594779468464803162346924884576156760988594870441496097768176212459"
+      }
+    }
+  },
+  {
+    "id": "897787",
+    "condition_id": "0x4c96c7e8460b8f9c4469483ddfa4d029c94605138dfcd4ab8f4891f79c2544d2",
+    "question": "Will France win the Men's Ice Hockey gold medal at the 2026 Winter Olympics?",
+    "slug": "will-france-win-the-mens-ice-hockey-gold-medal-at-the-2026-winter-olympics",
+    "category": "",
+    "end_date": "2026-02-22T00:00:00Z",
+    "active": true,
+    "liquidity": 94453.15674,
+    "volume": 999837.985185,
+    "volume_24h": 663310.0,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "63863295774489084146164061278778300589353248882855200605220753758658772728653"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "60657316813030946769048555160727779506173941946807795470523047736949904912518"
+      }
+    }
+  },
+  {
+    "id": "1304211",
+    "condition_id": "0x607d9daba25155bcfa34ba84517811b105e7abb969c629633795ab3e7ca54fa1",
+    "question": "Will Paris Saint-Germain FC win on 2026-02-13?",
+    "slug": "fl1-ren-psg-2026-02-13-psg",
+    "category": "",
+    "end_date": "2026-02-13T18:00:00Z",
+    "active": true,
+    "liquidity": 674235.9359,
+    "volume": 860522.115785,
+    "volume_24h": 658566.4719430001,
+    "outcomes": {
+      "Yes": {
+        "price": 0.695,
+        "token_id": "77871425922805716305353783731865033346785838533089267719469708614526786146515"
+      },
+      "No": {
+        "price": 0.305,
+        "token_id": "42080688451633067617599854646892511091030788153861355756431715234954759546594"
+      }
+    }
+  },
+  {
+    "id": "559684",
+    "condition_id": "0xf2e51acfbb6d0414dc2ace81b7dc2af7c165e443dcb91f6caa7aab6d6ab4f06d",
+    "question": "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
+    "slug": "will-chelsea-clinton-win-the-2028-democratic-presidential-nomination",
+    "category": "",
+    "end_date": "2028-11-07T00:00:00Z",
+    "active": true,
+    "liquidity": 922935.52184,
+    "volume": 36100739.995433,
+    "volume_24h": 641358.7614260002,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0085,
+        "token_id": "46211769122513729244602558513001215391004042100934296321661285791281233261657"
+      },
+      "No": {
+        "price": 0.9915,
+        "token_id": "76057920052421891902791411567177996435483774677774664174053982044923692373687"
+      }
+    }
+  },
+  {
+    "id": "553838",
+    "condition_id": "0x0d082a85f48a5226b1205acdb6e95ead2fe373acabcf6c471f5895f86f42a276",
+    "question": "Will the Minnesota Wild win the 2026 NHL Stanley Cup?",
+    "slug": "will-the-minnesota-wild-win-the-2026-nhl-stanley-cup",
+    "category": "",
+    "end_date": "2026-06-30T00:00:00Z",
+    "active": true,
+    "liquidity": 72969.59185,
+    "volume": 5864820.174785,
+    "volume_24h": 634428.381828,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0565,
+        "token_id": "52393600221905688380980180540161090876971894580569515967716227210336633318551"
+      },
+      "No": {
+        "price": 0.9435,
+        "token_id": "21431572216384228534336063536634350950418274877940611814171622998125116043513"
+      }
+    }
+  },
+  {
+    "id": "564163",
+    "condition_id": "0xb207031da5ef9cbded418e6b5b3c5eee24a3a7b22c6ec10053cbaaa67d793796",
+    "question": "Will Luka Doncic win the 2025–2026 NBA MVP?",
+    "slug": "will-luka-doncic-win-the-20252026-nba-mvp",
+    "category": "",
+    "end_date": "2026-06-10T00:00:00Z",
+    "active": true,
+    "liquidity": 60283.94724,
+    "volume": 3587461.228636,
+    "volume_24h": 631362.9820599995,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0495,
+        "token_id": "89110596788673536475065853727140488937259064164063660201050220270400840228269"
+      },
+      "No": {
+        "price": 0.9505,
+        "token_id": "101506943049053276934626391886226570064171431948041761918666910024462041911155"
+      }
+    }
+  },
+  {
+    "id": "572471",
+    "condition_id": "0x705371444684d676041d1010a94cae3a657340fa4809b4307de3c173a35e0957",
+    "question": "Will Trump nominate Christopher Waller as the next Fed chair?",
+    "slug": "will-trump-nominate-christopher-waller-as-the-next-fed-chair",
+    "category": "",
+    "end_date": "2026-12-31T00:00:00Z",
+    "active": true,
+    "liquidity": 421992.69172,
+    "volume": 21145400.011324,
+    "volume_24h": 622715.4986489995,
+    "outcomes": {
+      "Yes": {
+        "price": 0.002,
+        "token_id": "114421380098084026753773605667430150755820287180340356465450569515479471185603"
+      },
+      "No": {
+        "price": 0.998,
+        "token_id": "31167532153450638526564509379216016814499874840833154348394853115050097836415"
+      }
+    }
+  },
+  {
+    "id": "1349957",
+    "condition_id": "0xa8e777ef1a66334ed9cc068a877c64693ad516a8318863406156a7284ff15cf7",
+    "question": "T20 World Cup: Netherlands vs USA (Game 1)",
+    "slug": "crint-nld-usa-2026-02-13",
+    "category": "",
+    "end_date": "2026-02-20T13:30:00Z",
+    "active": true,
+    "liquidity": 234975.39553,
+    "volume": 674524.177007,
+    "volume_24h": 610265.7161739998,
+    "outcomes": {
+      "Netherlands": {
+        "price": 0.0005,
+        "token_id": "103655849584199501440895695949169973136299339116609144383802149255196611904911"
+      },
+      "USA": {
+        "price": 0.9995,
+        "token_id": "93686894351236008380660924427547673360667124521375256521350179730379179496257"
+      }
+    }
+  },
+  {
+    "id": "1302472",
+    "condition_id": "0xcbee60bb983792a78b2e31bea0083aaadf037da2dad88d3f7b0c9687691ef79c",
+    "question": "Al Hilal Saudi Club vs. Al Ettifaq Saudi Club: O/U 3.5",
+    "slug": "spl-hil-ett-2026-02-13-total-3pt5",
+    "category": "",
+    "end_date": "2026-02-13T15:25:00Z",
+    "active": true,
+    "liquidity": 7658.1737,
+    "volume": 613549.816189,
+    "volume_24h": 607154.3698150015,
+    "outcomes": {
+      "Over": {
+        "price": 0.495,
+        "token_id": "62159173307322815827718727839084159886015770106828407387204127708328448047336"
+      },
+      "Under": {
+        "price": 0.505,
+        "token_id": "95930806738793685658188982022234860253847844914933283561563982408100956669216"
+      }
+    }
+  },
+  {
+    "id": "559690",
+    "condition_id": "0x0f8ef3cc906ba7ba94a44724738df44bdd5f73e59e40c9c8b4ff8569e349643c",
+    "question": "Will Kim Kardashian win the 2028 Democratic presidential nomination?",
+    "slug": "will-kim-kardashian-win-the-2028-democratic-presidential-nomination",
+    "category": "",
+    "end_date": "2028-11-07T00:00:00Z",
+    "active": true,
+    "liquidity": 1845455.66204,
+    "volume": 21735755.687953,
+    "volume_24h": 605921.86366,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0085,
+        "token_id": "55087250670040717711131370018408221134109122974378698780636020561523521220754"
+      },
+      "No": {
+        "price": 0.9915,
+        "token_id": "108145967398435925971960442906832714254932011684365058146885679351681137451999"
+      }
+    }
+  },
+  {
+    "id": "1237456",
+    "condition_id": "0x7b44c6d9fee523810e2868d85e46d58522b174b1e20e75f7912588c46433dfab",
+    "question": "Will Tesla be the largest company in the world by market cap on February 28?",
+    "slug": "will-tesla-be-the-largest-company-in-the-world-by-market-cap-on-february-28",
+    "category": "",
+    "end_date": "2026-02-28T00:00:00Z",
+    "active": true,
+    "liquidity": 203391.54805,
+    "volume": 1700368.991078,
+    "volume_24h": 602544.9400000001,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "16244368245019437593336134383134025501791859691660634395922789464952466351769"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "47283790556415459233347337239327029459371757086368523390678273252678493702321"
+      }
+    }
+  },
+  {
+    "id": "1324215",
+    "condition_id": "0x1f25449e1d10ac6139f395358479939300f7d355b15d4ec1e26ea5005b175bb3",
+    "question": "Will Elon Musk post 400-419 tweets from February 6 to February 13, 2026?",
+    "slug": "elon-musk-of-tweets-february-6-february-13-400-419",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 173265.47586,
+    "volume": 1057421.374868,
+    "volume_24h": 599988.127408,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "95756908954815929201824784211344483394622094997984235886626680128565798929028"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "56673238648973397430462697823024195027743104859490382126718703282864552288079"
+      }
+    }
+  },
+  {
+    "id": "572469",
+    "condition_id": "0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc",
+    "question": "Will Trump nominate Kevin Warsh as the next Fed chair?",
+    "slug": "will-trump-nominate-kevin-warsh-as-the-next-fed-chair",
+    "category": "",
+    "end_date": "2026-12-31T00:00:00Z",
+    "active": true,
+    "liquidity": 509402.18068,
+    "volume": 38082219.160309,
+    "volume_24h": 597504.0715390008,
+    "outcomes": {
+      "Yes": {
+        "price": 0.9545,
+        "token_id": "51338236787729560681434534660841415073585974762690814047670810862722808070955"
+      },
+      "No": {
+        "price": 0.0455,
+        "token_id": "18289842382539867639079362738467334752951741961393928566628307174343542320349"
+      }
+    }
+  },
+  {
+    "id": "1345822",
+    "condition_id": "0x091a562f6b4b504a03c3ef40e578ae3b0ca52c9512a65e51885760d74c904e78",
+    "question": "Will the price of Bitcoin be above $70,000 on February 13?",
+    "slug": "bitcoin-above-70k-on-february-13",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 15963.73254,
+    "volume": 816122.307211,
+    "volume_24h": 595890.051822999,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0325,
+        "token_id": "7514338355482411107885297642147346700682602688822253701101006408397180395381"
+      },
+      "No": {
+        "price": 0.9675,
+        "token_id": "108853481568553649253715212514076495978343067195498290598399317284340774311096"
+      }
+    }
+  },
+  {
+    "id": "1324216",
+    "condition_id": "0xf44be44443ce01401fd5f2f90fe8564d22ac66c513d059ad6e1d204cbcf1246b",
+    "question": "Will Elon Musk post 420-439 tweets from February 6 to February 13, 2026?",
+    "slug": "elon-musk-of-tweets-february-6-february-13-420-439",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 165277.03323,
+    "volume": 1030088.705227,
+    "volume_24h": 580752.6245679997,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "2792886847269024576048196985164686432756537110722322312238549880745552363684"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "26931935981849487432974092272149465194193124280855613375789384756197153004430"
+      }
+    }
+  },
+  {
+    "id": "561251",
+    "condition_id": "0x836b850fc838195374862551a36f1c8691d96ff01e58b0a071f0fc1a0e357fb1",
+    "question": "Will LeBron James win the 2028 US Presidential Election?",
+    "slug": "will-lebron-james-win-the-2028-us-presidential-election",
+    "category": "",
+    "end_date": "2028-11-07T00:00:00Z",
+    "active": true,
+    "liquidity": 1172678.94544,
+    "volume": 28172201.271794,
+    "volume_24h": 579207.7601269998,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0075,
+        "token_id": "39223330966352513418907732239455948906399882924787587183466504819170775983376"
+      },
+      "No": {
+        "price": 0.9925,
+        "token_id": "50862799703982327636174441241062907649998751737045006653560124656563256528691"
+      }
+    }
+  },
+  {
+    "id": "1340803",
+    "condition_id": "0xdfba064ef9c65c05794129468f519c4cf7a9b546d467fda390b1f7b1d5c325c7",
+    "question": "Will SOLV Energy, Inc.'s market cap be less than $3.8B at market close on IPO day?",
+    "slug": "will-solv-energy-incs-market-cap-be-less-than-3pt8b-at-market-close-on-ipo-day",
+    "category": "",
+    "end_date": "2026-02-11T00:00:00Z",
+    "active": true,
+    "liquidity": 589691.52898,
+    "volume": 1168191.555101,
+    "volume_24h": 561600.5701819999,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "112900001464350563617386915156071772745397458410569252881600284409791971345876"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "58660298037207106135227751495139632818301418741501702118389004704074255639578"
+      }
+    }
+  },
+  {
+    "id": "1324213",
+    "condition_id": "0xbfe3cbce151bc2998ab7fc5c571bee622da5bca634ea911882adfd545b189eb6",
+    "question": "Will Elon Musk post 380-399 tweets from February 6 to February 13, 2026?",
+    "slug": "elon-musk-of-tweets-february-6-february-13-380-399",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 84213.96649,
+    "volume": 1183299.607803,
+    "volume_24h": 556941.0916960014,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "1554912214644455762390560405339505451434801977490352970953713664706497496237"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "21279602838967598064494973463528526060914131711252304524120168667430148463456"
+      }
+    }
+  },
+  {
+    "id": "1369900",
+    "condition_id": "0xc75a6b98f049070cebb59b1c271e4250e73fd1aaaee170721aeb63243ba10374",
+    "question": "Ethereum Up or Down on February 14?",
+    "slug": "ethereum-up-or-down-on-february-14",
+    "category": "",
+    "end_date": "2026-02-14T17:00:00Z",
+    "active": true,
+    "liquidity": 4956.0614,
+    "volume": 540398.86456,
+    "volume_24h": 540273.090978,
+    "outcomes": {
+      "Up": {
+        "price": 0.515,
+        "token_id": "36527984184091698379501253167691740752284116426994814007315766793776506809902"
+      },
+      "Down": {
+        "price": 0.485,
+        "token_id": "80132286594539486072866748514992311812783775411442657001669353875753829547893"
+      }
+    }
+  },
+  {
+    "id": "1345826",
+    "condition_id": "0x09b12ce0abe06c7167ffedc12ad126e631a61d28e7f8cd9d1a61d39bd9da4866",
+    "question": "Will the price of Bitcoin be above $74,000 on February 13?",
+    "slug": "bitcoin-above-74k-on-february-13",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 81294.36098,
+    "volume": 670545.376659,
+    "volume_24h": 540011.112822,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "16329143536681395860732770718189501901534825282189266180225937120557489388157"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "105430888587221055568715457615615264821597506490715030913954350645031448895422"
+      }
+    }
+  },
+  {
+    "id": "567564",
+    "condition_id": "0x068d4f079da544e312b1a7b86e2c5dd39d3fc6a0f5a21b0ec866d1ff34767839",
+    "question": "Will the next Prime Minister of Hungary be István Kapitány?",
+    "slug": "will-the-next-prime-minister-of-hungary-be-istvn-kapitny",
+    "category": "",
+    "end_date": "2026-04-12T00:00:00Z",
+    "active": true,
+    "liquidity": 37420.68901,
+    "volume": 3189470.296575,
+    "volume_24h": 535987.9722290001,
+    "outcomes": {
+      "Yes": {
+        "price": 0.041,
+        "token_id": "112334119315898655379557681849814313140380376299028916203775469724730149194325"
+      },
+      "No": {
+        "price": 0.959,
+        "token_id": "9769739137616425702145383342253945344514131626307605267586577941632735221909"
+      }
+    }
+  },
+  {
+    "id": "559678",
+    "condition_id": "0x46dbd48d6bde5b81edb480e0f676a2cdda6c6b592c4d86a9367c7ad5a9870195",
+    "question": "Will Liz Cheney win the 2028 Democratic presidential nomination?",
+    "slug": "will-liz-cheney-win-the-2028-democratic-presidential-nomination-551",
+    "category": "",
+    "end_date": "2028-11-07T00:00:00Z",
+    "active": true,
+    "liquidity": 1157090.37253,
+    "volume": 25308197.686607,
+    "volume_24h": 529994.9472540001,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0075,
+        "token_id": "41340056280794024415573839406074658402877379128871144681466050648033201160259"
+      },
+      "No": {
+        "price": 0.9925,
+        "token_id": "63802361760137863513735993346883582181207639895442036953936089060482564982249"
+      }
+    }
+  },
+  {
+    "id": "561249",
+    "condition_id": "0x01dffa7abae7e5d9b7fb44b06d537c5ac932e2ca422ab4b53366672f5e2dc7d6",
+    "question": "Will Greg Abbott win the 2028 US Presidential Election?",
+    "slug": "will-greg-abbott-win-the-2028-us-presidential-election",
+    "category": "",
+    "end_date": "2028-11-07T00:00:00Z",
+    "active": true,
+    "liquidity": 788911.9961,
+    "volume": 26462490.48638,
+    "volume_24h": 529868.284557,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0075,
+        "token_id": "58585097107933138034126275600204468509993701936571284309823871593297754181479"
+      },
+      "No": {
+        "price": 0.9925,
+        "token_id": "104431860535489654020481219089291817898241901940037260095979653681449084465327"
+      }
+    }
+  },
+  {
+    "id": "1324217",
+    "condition_id": "0x814bf672aa616cd0c702d242e0e894799649a7041fd9ed62756a7d8157912c31",
+    "question": "Will Elon Musk post 440-459 tweets from February 6 to February 13, 2026?",
+    "slug": "elon-musk-of-tweets-february-6-february-13-440-459",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 190518.94529,
+    "volume": 919103.968593,
+    "volume_24h": 510452.11751599994,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "46599696399675913585584218569488908542204095610291572593032526902813799611953"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "31390482353732948423156014713174956709029974894266397465545283196377558418180"
+      }
+    }
+  },
+  {
+    "id": "897783",
+    "condition_id": "0xdb6eb25774e472dc5c363d5687446c91ef472f72efbfca2f46725f627a829934",
+    "question": "Will Italy win the Men's Ice Hockey gold medal at the 2026 Winter Olympics?",
+    "slug": "will-italy-win-the-mens-ice-hockey-gold-medal-at-the-2026-winter-olympics",
+    "category": "",
+    "end_date": "2026-02-22T00:00:00Z",
+    "active": true,
+    "liquidity": 83668.23088,
+    "volume": 706136.610243,
+    "volume_24h": 503370.0,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "33524637525456030771470948730165813023263553630215829620851066972843610947695"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "2269114957676152582209313465203577369111197700419404649289770865404129306297"
+      }
+    }
+  },
+  {
+    "id": "553831",
+    "condition_id": "0x3b6cdd4f72cef7f29ff7e054444095564dc582266b7230be3c2b5f194d89f37d",
+    "question": "Will the Los Angeles Kings win the 2026 NHL Stanley Cup?",
+    "slug": "will-the-los-angeles-kings-win-the-2026-nhl-stanley-cup",
+    "category": "",
+    "end_date": "2026-06-30T00:00:00Z",
+    "active": true,
+    "liquidity": 92857.17697,
+    "volume": 4614180.079956,
+    "volume_24h": 498089.0145480001,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0275,
+        "token_id": "75497690502531380056390405612014900797768656980504946546336044296003833597355"
+      },
+      "No": {
+        "price": 0.9725,
+        "token_id": "2729425106258568059271359452117793887389510413905823490566998620570283391162"
+      }
+    }
+  },
+  {
+    "id": "1366460",
+    "condition_id": "0x3ea0cdf0c6adca8ae5d487211312996f768f31119d142bee697960575e279cab",
+    "question": "Bitcoin Up or Down on February 13?",
+    "slug": "bitcoin-up-or-down-on-february-13",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 133151.78946,
+    "volume": 519481.934116,
+    "volume_24h": 494713.60804600036,
+    "outcomes": {
+      "Up": {
+        "price": 0.9995,
+        "token_id": "4294468471900237554540518128029283560669693092353319306901242041418687309724"
+      },
+      "Down": {
+        "price": 0.0005,
+        "token_id": "74389780259518294018311523163537068207413011660936632165271952261039169179177"
+      }
+    }
+  },
+  {
+    "id": "1324220",
+    "condition_id": "0xb87712a1029cd62e6f1622a6860047f9783744eca2c96cdfb184f89385dfa304",
+    "question": "Will Elon Musk post 500-519 tweets from February 6 to February 13, 2026?",
+    "slug": "elon-musk-of-tweets-february-6-february-13-500-519",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 130524.77948,
+    "volume": 832021.619859,
+    "volume_24h": 490176.77408100024,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "33624410066060744757496736964098842515038236167585657610798725931482660843529"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "61254345864066889407220753892483435316936094919714892621008889573162576259426"
+      }
+    }
+  },
+  {
+    "id": "559682",
+    "condition_id": "0x1945a8b23e313ed7423b6b6fd556f9ab5578900376b565a61dc480a5f4f35d21",
+    "question": "Will Hunter Biden win the 2028 Democratic presidential nomination?",
+    "slug": "will-person-a-win-the-2028-democratic-presidential-nomination",
+    "category": "",
+    "end_date": "2028-11-07T00:00:00Z",
+    "active": true,
+    "liquidity": 873343.47527,
+    "volume": 23811056.865206,
+    "volume_24h": 488981.913872,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0095,
+        "token_id": "11343337042526652606304508556838778144915122118685013460142819817079620240439"
+      },
+      "No": {
+        "price": 0.9905,
+        "token_id": "19117858613830240204442128472263675815111662346578092643025820800380629933012"
+      }
+    }
+  },
+  {
+    "id": "1369864",
+    "condition_id": "0x98900867a0498637b6ec9052bcaff819bc2d221a3ad8932f5ccb6f7cf3e1dc7b",
+    "question": "Bitcoin Up or Down on February 14?",
+    "slug": "bitcoin-up-or-down-on-february-14",
+    "category": "",
+    "end_date": "2026-02-14T17:00:00Z",
+    "active": true,
+    "liquidity": 8057.1255,
+    "volume": 489302.352727,
+    "volume_24h": 487763.12107199954,
+    "outcomes": {
+      "Up": {
+        "price": 0.49,
+        "token_id": "12155077387566787831867036192129328818313530312518884103303051599500711066696"
+      },
+      "Down": {
+        "price": 0.51,
+        "token_id": "107059751938281570796698880631780064772937611315034043274573747254067361316451"
+      }
+    }
+  },
+  {
+    "id": "984441",
+    "condition_id": "0x4b02efe53e631ada84681303fd66d79ad615f3d2b6a28b4633d43d935f89af58",
+    "question": "US strikes Iran by March 31, 2026?",
+    "slug": "us-strikes-iran-by-march-31-2026-393-221-132-633-215-592-866-184-321-377-931-222-297-655-719-935-944-321-534-925-937-744-476-586-454-914-676-972-362-876-771-213-554-443-439-287-519-563-393-256",
+    "category": "",
+    "end_date": "2026-06-30T00:00:00Z",
+    "active": true,
+    "liquidity": 234785.6985,
+    "volume": 8498393.335211,
+    "volume_24h": 486475.32995,
+    "outcomes": {
+      "Yes": {
+        "price": 0.295,
+        "token_id": "114073431155826730926052468626599502581519892859155799641358176120253844422606"
+      },
+      "No": {
+        "price": 0.705,
+        "token_id": "102493900551645701521693125055452122755587721284263456800351297341161706805154"
+      }
+    }
+  },
+  {
+    "id": "984442",
+    "condition_id": "0x797d586ad45522306490b0cc9b2f21bdf957f3843476fae99f3bcc2cec83b74b",
+    "question": "US strikes Iran by June 30, 2026?",
+    "slug": "us-strikes-iran-by-june-30-2026-699-664-723-485-753-218-567-164-387-443-377-384-159-973-494-631-694-956-361-443-224-518-537-678-486-386-275-153-976-862-149-897-221-522-378-575-993-365-444",
+    "category": "",
+    "end_date": "2026-06-30T00:00:00Z",
+    "active": true,
+    "liquidity": 155095.2781,
+    "volume": 4922598.875482,
+    "volume_24h": 484940.210313,
+    "outcomes": {
+      "Yes": {
+        "price": 0.425,
+        "token_id": "22252502611282362722836616535222124555071018472020227405221424834675316026440"
+      },
+      "No": {
+        "price": 0.575,
+        "token_id": "15704223254061637699665008299235004894744524204070683496068480275285392327272"
+      }
+    }
+  },
+  {
+    "id": "1369902",
+    "condition_id": "0x8e17d5ce179119d645cc355ce8ff049d58e1a1ac101f58ae33454bc2fbcb8100",
+    "question": "Rotterdam Open: Alex de Minaur vs Botic van de Zandschulp",
+    "slug": "atp-minaur-zandsch-2026-02-13",
+    "category": "",
+    "end_date": "2026-02-20T13:30:00Z",
+    "active": true,
+    "liquidity": 173120.0161,
+    "volume": 574014.977246,
+    "volume_24h": 480501.6448050001,
+    "outcomes": {
+      "Minaur": {
+        "price": 0.9995,
+        "token_id": "92402404544589740810159847603350039377619526016775975592244255901436515186314"
+      },
+      "Zandschulp": {
+        "price": 0.0005,
+        "token_id": "42601232185870472118191563855575216059495343750282647995367052037785332336501"
+      }
+    }
+  },
+  {
+    "id": "916732",
+    "condition_id": "0x70909f0ba8256a89c301da58812ae47203df54957a07c7f8b10235e877ad63c2",
+    "question": "Khamenei out as Supreme Leader of Iran by March 31?",
+    "slug": "khamenei-out-as-supreme-leader-of-iran-by-march-31",
+    "category": "",
+    "end_date": "2026-03-31T00:00:00Z",
+    "active": true,
+    "liquidity": 340839.7835,
+    "volume": 11813625.737356,
+    "volume_24h": 461968.387638,
+    "outcomes": {
+      "Yes": {
+        "price": 0.155,
+        "token_id": "70771354585365381988139008309072205730081182435161568795508496003376222185889"
+      },
+      "No": {
+        "price": 0.845,
+        "token_id": "46746822541461330721074821991383617225657173789584499857683753079229786702095"
+      }
+    }
+  },
+  {
+    "id": "1324218",
+    "condition_id": "0x8c0f109eeacbeeb6f7c9e86f940b887e8868c19d0d3e59fa70603ced21829f7f",
+    "question": "Will Elon Musk post 460-479 tweets from February 6 to February 13, 2026?",
+    "slug": "elon-musk-of-tweets-february-6-february-13-460-479",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 168271.17408,
+    "volume": 859345.396431,
+    "volume_24h": 454522.1309150001,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "21294688416127573605224196739888258772530425892676329310604302168129573764984"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "93054874808598935382149528111611172416409656116537973993456026499947950723248"
+      }
+    }
+  },
+  {
+    "id": "572486",
+    "condition_id": "0xfc6eace32f283eda179c15d447fe61f0426846bace5c583a967ddeaba58c2f93",
+    "question": "Will Trump nominate Michelle Bowman as the next Fed chair?",
+    "slug": "will-trump-nominate-michelle-bowman-as-the-next-fed-chair",
+    "category": "",
+    "end_date": "2026-12-31T00:00:00Z",
+    "active": true,
+    "liquidity": 537941.66733,
+    "volume": 18874918.627077,
+    "volume_24h": 450889.56266200007,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0025,
+        "token_id": "17066127610879876900068524118662950536540111723756302158713495031843880669357"
+      },
+      "No": {
+        "price": 0.9975,
+        "token_id": "32087556102494098358189004916291893731817375241943118224601114766541240940770"
+      }
+    }
+  },
+  {
+    "id": "1367164",
+    "condition_id": "0xe209dc6ca6921ff591483aef5a5e8873ab6f59fa69b1d6cbe05b627c71e8ba44",
+    "question": "US strikes Iran by February 14, 2026?",
+    "slug": "us-strikes-iran-by-february-14-2026",
+    "category": "",
+    "end_date": "2026-01-31T00:00:00Z",
+    "active": true,
+    "liquidity": 93758.57297,
+    "volume": 708042.193425,
+    "volume_24h": 444904.93571400014,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0155,
+        "token_id": "91615836213258136158948775630755396627475047572554138891383209190336364561247"
+      },
+      "No": {
+        "price": 0.9845,
+        "token_id": "113895332748343498465994552591544129956786491410021358582318328529391497196213"
+      }
+    }
+  },
+  {
+    "id": "1273917",
+    "condition_id": "0x1685c8da893250409e66eb37e0a6f4582e5ece40e7aee1fd7e5e55091439c010",
+    "question": "Will the US next strike Iran on February 12, 2026 (ET)?",
+    "slug": "will-the-us-next-strike-iran-on-february-12-2026-et",
+    "category": "",
+    "end_date": "2026-02-28T00:00:00Z",
+    "active": true,
+    "liquidity": 94794.82207,
+    "volume": 1113434.691545,
+    "volume_24h": 434982.31505299977,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "22327606340186220913966543986921686204663591056757003148690491191691848105754"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "64164529590776295683726248088155363833029276532970229967068655019066645013217"
+      }
+    }
+  },
+  {
+    "id": "1345817",
+    "condition_id": "0x28ccbe6d769f5c53cd6e889b3c0a3f806e3fab06f508e98d720b144c42bc6960",
+    "question": "Will the price of Bitcoin be above $66,000 on February 13?",
+    "slug": "bitcoin-above-66k-on-february-13",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 90975.38335,
+    "volume": 559222.284435,
+    "volume_24h": 415414.59748399974,
+    "outcomes": {
+      "Yes": {
+        "price": 0.9995,
+        "token_id": "3144753228331234285586550288503020401883162530517479421785039054978689382965"
+      },
+      "No": {
+        "price": 0.0005,
+        "token_id": "102533420522035684039228199949943344820695410823206112469966152305256759330359"
+      }
+    }
+  },
+  {
+    "id": "572470",
+    "condition_id": "0xdcc87b9ca36015e396bd0eebca29e854a136ed2b0b701049d1ee9da6bee3eb35",
+    "question": "Will Trump nominate Kevin Hassett as the next Fed chair?",
+    "slug": "will-trump-nominate-kevin-hassett-as-the-next-fed-chair",
+    "category": "",
+    "end_date": "2026-12-31T00:00:00Z",
+    "active": true,
+    "liquidity": 951697.85776,
+    "volume": 26112312.869747,
+    "volume_24h": 414542.652657,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0025,
+        "token_id": "34551606549875928972193520396544368029176529083448203019529657908155427866742"
+      },
+      "No": {
+        "price": 0.9975,
+        "token_id": "22802130763821766047382314926654345322953005062130920361011056163048911488589"
+      }
+    }
+  },
+  {
+    "id": "1348353",
+    "condition_id": "0xb7b4de3e0320e86b89e92893a477da097b6e5dfa2b5c54cbc47f2791e5d2702e",
+    "question": "Will the government shutdown last 1 day or more?",
+    "slug": "will-the-government-shutdown-last-1-day-or-more",
+    "category": "",
+    "end_date": "2026-03-14T00:00:00Z",
+    "active": true,
+    "liquidity": 24747.84713,
+    "volume": 454210.778663,
+    "volume_24h": 411108.80423999985,
+    "outcomes": {
+      "Yes": {
+        "price": 0.34,
+        "token_id": "58445300691676041933730351759907459829949267133578202991478511527490273779411"
+      },
+      "No": {
+        "price": 0.66,
+        "token_id": "56891728536643066508034863544459233300144536901128640163689349020321528091108"
+      }
+    }
+  },
+  {
+    "id": "1345786",
+    "condition_id": "0xd2f5af09ea272c5f902a755708b0f1e8a5143ad9650ce8efc94e41a330d5ac1a",
+    "question": "Will the price of Ethereum be above $2,000 on February 13?",
+    "slug": "ethereum-above-2000-on-february-13",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 5282.87735,
+    "volume": 507092.909806,
+    "volume_24h": 407803.494538,
+    "outcomes": {
+      "Yes": {
+        "price": 0.9925,
+        "token_id": "35772823329206277421212870816865062977645200238318528195387542055196722407583"
+      },
+      "No": {
+        "price": 0.0075,
+        "token_id": "29397989366539911309003551186703223506685513579250415417415204644895569964135"
+      }
+    }
+  },
+  {
+    "id": "1345641",
+    "condition_id": "0xddcfd0baea9146bf38a67b32d9115e65784d881308f1799b531d9f237e271c2f",
+    "question": "Will Bitcoin reach $75,000 in February?",
+    "slug": "will-bitcoin-reach-75000-in-february-858-936",
+    "category": "",
+    "end_date": "2026-03-01T05:00:00Z",
+    "active": true,
+    "liquidity": 78952.8949,
+    "volume": 1359085.32581,
+    "volume_24h": 407370.3808389997,
+    "outcomes": {
+      "Yes": {
+        "price": 0.425,
+        "token_id": "24120579393151285531790392365655515414663383379081658053153655752666989210807"
+      },
+      "No": {
+        "price": 0.575,
+        "token_id": "28478681580809237431471005359017551164569620292823000230119471071310609288281"
+      }
+    }
+  },
+  {
+    "id": "566737",
+    "condition_id": "0x5eb681cc36248c64a48aa01096f2287834ac836d814541cd96da9924752cae06",
+    "question": "Will Lens win the 2025–26 French Ligue 1?",
+    "slug": "will-lens-win-the-202526-french-ligue-1",
+    "category": "",
+    "end_date": "2026-05-30T00:00:00Z",
+    "active": true,
+    "liquidity": 17534.64775,
+    "volume": 1276021.799151,
+    "volume_24h": 400831.07824899995,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0645,
+        "token_id": "106893482875330829332347425550558141013488263650384566003078374608472351519383"
+      },
+      "No": {
+        "price": 0.9355,
+        "token_id": "32562890083332327801535125145831767630420757200775626196821202901319165279557"
+      }
+    }
+  },
+  {
+    "id": "566149",
+    "condition_id": "0x2571face33de8d5c3541fb569c10af59bb80fa909e1469af1c35919803943ea6",
+    "question": "Will Tottenham win the 2025–26 Champions League?",
+    "slug": "will-tottenham-win-the-202526-champions-league",
+    "category": "",
+    "end_date": "2026-05-31T00:00:00Z",
+    "active": true,
+    "liquidity": 372067.12496,
+    "volume": 2853959.961336,
+    "volume_24h": 396587.14963499963,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0225,
+        "token_id": "43056875374313905973832907529403631296135811407462538380159199626529592941277"
+      },
+      "No": {
+        "price": 0.9775,
+        "token_id": "65810667047011144327728455443307199531009544684982457609131541566841564674781"
+      }
+    }
+  },
+  {
+    "id": "572478",
+    "condition_id": "0x60acc46cda1f0619259acf3ef8c77bf734ff08cbed256ca3d1e9444138e21266",
+    "question": "Will Trump nominate Jerome Powell as the next Fed chair?",
+    "slug": "will-trump-nominate-jerome-powell-as-the-next-fed-chair",
+    "category": "",
+    "end_date": "2026-12-31T00:00:00Z",
+    "active": true,
+    "liquidity": 6331917.71944,
+    "volume": 27511771.93542,
+    "volume_24h": 391775.1880000001,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "75562986572078747541577175725857968095799345857741050112699871710798605147441"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "83835245338776946964312557572556765129893211997427807179516406386114613522003"
+      }
+    }
+  },
+  {
+    "id": "558952",
+    "condition_id": "0x67443cb1ffb2bf180f7df5b6ca7adff63f7e8e933c7e41405ba118f3e9f8befb",
+    "question": "Will Canada win the 2026 FIFA World Cup?",
+    "slug": "will-canada-win-the-2026-fifa-world-cup-755",
+    "category": "",
+    "end_date": "2026-07-20T00:00:00Z",
+    "active": true,
+    "liquidity": 403660.21529,
+    "volume": 4748545.163921,
+    "volume_24h": 368966.77293199993,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0055,
+        "token_id": "99303605181956827630838461879484468077121754034387765735989859308848389894408"
+      },
+      "No": {
+        "price": 0.9945,
+        "token_id": "69727421603231227453181655442677441322028725849495647325726292556190704508348"
+      }
+    }
+  },
+  {
+    "id": "1344589",
+    "condition_id": "0x8a837168840540752f3e1f9e39d12dcec286a3150b10621f8a76edc638f19391",
+    "question": "Counter-Strike: MOUZ vs PARIVISION (BO3) - PGL Cluj-Napoca Group Stage",
+    "slug": "cs2-mouz-prv-2026-02-14",
+    "category": "",
+    "end_date": "2026-02-14T17:00:00Z",
+    "active": true,
+    "liquidity": 64966.4041,
+    "volume": 410432.347554,
+    "volume_24h": 367064.8179510003,
+    "outcomes": {
+      "MOUZ": {
+        "price": 0.645,
+        "token_id": "5519406054991880192629199287768350411649853359895284944517723237398601814193"
+      },
+      "PARIVISION": {
+        "price": 0.355,
+        "token_id": "104771374548599553423711153967788323571908829685664783105271483589949740847475"
+      }
+    }
+  },
+  {
+    "id": "561259",
+    "condition_id": "0xb314f5dbf75919a34d4997e8b22e6793505e3377a690eaa11a75a2547e926bee",
+    "question": "Will Ro Khanna win the 2028 US Presidential Election?",
+    "slug": "will-ro-khanna-win-the-2028-us-presidential-election",
+    "category": "",
+    "end_date": "2028-11-07T00:00:00Z",
+    "active": true,
+    "liquidity": 518772.23801,
+    "volume": 852199.667981,
+    "volume_24h": 366875.064444,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0085,
+        "token_id": "45264462342307496826883801236629887275526404999716050689931105511159370296978"
+      },
+      "No": {
+        "price": 0.9915,
+        "token_id": "21034003091803474219272633665814818485285721473911024023600356649009960505229"
+      }
+    }
+  },
+  {
+    "id": "1342681",
+    "condition_id": "0x35ad4dcc628c93d17dcc922561de070b598cf015a6c07ac04b46115b7695d540",
+    "question": "Men's Group A - Canada vs. Switzerland",
+    "slug": "mwoh-can-swi-2026-02-13",
+    "category": "",
+    "end_date": "2026-02-13T22:59:59.999Z",
+    "active": true,
+    "liquidity": 188342.8667,
+    "volume": 389603.798789,
+    "volume_24h": 366436.25738599995,
+    "outcomes": {
+      "Canada": {
+        "price": 0.905,
+        "token_id": "56657786820571496790673764546053804771447960225298728185322419583894194198458"
+      },
+      "Switzerland": {
+        "price": 0.095,
+        "token_id": "68340325621961147358888225262215043208913464113005394463327119361779422083559"
+      }
+    }
+  },
+  {
+    "id": "1369203",
+    "condition_id": "0x8ddc83297e1d0262004fad49ace506939d580460e06a3dc2ff2ea681d145c01f",
+    "question": "S&P 500 (SPX) Opens Up or Down on February 13?",
+    "slug": "spx-opens-up-or-down-on-february-13-2026",
+    "category": "",
+    "end_date": "2026-02-13T21:00:00Z",
+    "active": true,
+    "liquidity": 19623.20627,
+    "volume": 359833.07385,
+    "volume_24h": 357480.15799999994,
+    "outcomes": {
+      "Up": {
+        "price": 0.9995,
+        "token_id": "67531241072511623800487948479356024921289472351897171865731059457151933157584"
+      },
+      "Down": {
+        "price": 0.0005,
+        "token_id": "54338673894236085562189743395166715003471850327746329027067171763237491816374"
+      }
+    }
+  },
+  {
+    "id": "559691",
+    "condition_id": "0xc720fcfa9e29346a976902f87e0f0f3bdc31d43af501b4fdef4f1780a30dd359",
+    "question": "Will Chris Murphy win the 2028 Democratic presidential nomination?",
+    "slug": "will-chris-murphy-win-the-2028-democratic-presidential-nomination",
+    "category": "",
+    "end_date": "2028-11-07T00:00:00Z",
+    "active": true,
+    "liquidity": 484411.71875,
+    "volume": 7298301.13321,
+    "volume_24h": 353591.03949,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0095,
+        "token_id": "8815924480259634499011776432080696931704057619336093802050596292915996723758"
+      },
+      "No": {
+        "price": 0.9905,
+        "token_id": "45099054006923138281311463758770234951153596952213440096254242321807308634603"
+      }
+    }
+  },
+  {
+    "id": "566145",
+    "condition_id": "0xe4f25e05d842810ff5944ba1e2953c6ced1e869cac3b44d15b32fd404ddb4bf4",
+    "question": "Will Inter win the 2025–26 Champions League?",
+    "slug": "will-inter-win-the-202526-champions-league",
+    "category": "",
+    "end_date": "2026-05-31T00:00:00Z",
+    "active": true,
+    "liquidity": 125335.76182,
+    "volume": 3209829.962523,
+    "volume_24h": 340193.6770799997,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0295,
+        "token_id": "107589889099988041445300607606991516566670120875767300754708868073036165511332"
+      },
+      "No": {
+        "price": 0.9705,
+        "token_id": "88600268059883443385048654191981648497829094336579730410215438763388869951622"
+      }
+    }
+  },
+  {
+    "id": "561247",
+    "condition_id": "0xae70ab9bf1c3726fe430a2ba8b517697ae24e0f0ab554b876a5b521153068882",
+    "question": "Will Tim Walz win the 2028 US Presidential Election?",
+    "slug": "will-tim-walz-win-the-2028-us-presidential-election",
+    "category": "",
+    "end_date": "2028-11-07T00:00:00Z",
+    "active": true,
+    "liquidity": 1057924.5242,
+    "volume": 28312569.960304,
+    "volume_24h": 337491.795901,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0085,
+        "token_id": "2638997461401140008448476093092229850740161649668999975101243681118238509713"
+      },
+      "No": {
+        "price": 0.9915,
+        "token_id": "31711509411930636383466083293019394636501894118049148509527295292186501260570"
+      }
+    }
+  },
+  {
+    "id": "1345810",
+    "condition_id": "0x724f03490f77fbe76923e8c773dc68ae162eeb8d12cc356709b17c3703d4a0a9",
+    "question": "Will the price of Bitcoin be above $60,000 on February 13?",
+    "slug": "bitcoin-above-60k-on-february-13",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 147461.02879,
+    "volume": 437822.646672,
+    "volume_24h": 330090.2608539998,
+    "outcomes": {
+      "Yes": {
+        "price": 0.9995,
+        "token_id": "25869807406408146101902701339981954721673850957958403468520720168406231023960"
+      },
+      "No": {
+        "price": 0.0005,
+        "token_id": "85642034727001543438916726645172130536419565811302406876483203025984540022656"
+      }
+    }
+  },
+  {
+    "id": "1345783",
+    "condition_id": "0x25c3ab24482dec3293dd5150108c5195fd201b02a3e63f136af2aab9b9904696",
+    "question": "Will the price of Bitcoin be between $66,000 and $68,000 on February 13?",
+    "slug": "will-the-price-of-bitcoin-be-between-66000-68000-on-february-13",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 15222.72674,
+    "volume": 356605.112287,
+    "volume_24h": 324858.66175800003,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0055,
+        "token_id": "87821931560156256180989932525067807842974353008001873520133813077972710878323"
+      },
+      "No": {
+        "price": 0.9945,
+        "token_id": "95447260096472608900207221428503009170889925749816314257251147056600413915449"
+      }
+    }
+  },
+  {
+    "id": "553870",
+    "condition_id": "0xf523e45d6bfe49d30e45e4e7794fd6e5f621b0304e07044fef156e6dd4d4b249",
+    "question": "Will the Dallas Mavericks win the 2026 NBA Finals?",
+    "slug": "will-the-dallas-mavericks-win-the-2026-nba-finals",
+    "category": "",
+    "end_date": "2026-07-01T00:00:00Z",
+    "active": true,
+    "liquidity": 505969.33063,
+    "volume": 4339209.534342,
+    "volume_24h": 324327.821,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0015,
+        "token_id": "66366257655830261525886886009374355528181312179120554384746710233627914852488"
+      },
+      "No": {
+        "price": 0.9985,
+        "token_id": "92282961215662985493644013568370549112541633931411010714654394041381234335870"
+      }
+    }
+  },
+  {
+    "id": "1345812",
+    "condition_id": "0xfdba5ec43d371a8b9ba1789de5d1bfad102a6b9cf577292ca19e32c4bf8794dc",
+    "question": "Will the price of Bitcoin be above $62,000 on February 13?",
+    "slug": "bitcoin-above-62k-on-february-13",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 83157.58426,
+    "volume": 395516.75259,
+    "volume_24h": 322771.2708500002,
+    "outcomes": {
+      "Yes": {
+        "price": 0.9995,
+        "token_id": "47728078781733584044655969601572084799634405671307106358095706057113206731810"
+      },
+      "No": {
+        "price": 0.0005,
+        "token_id": "114179456215106005828896812114385212791744475490527987320155233640487214734843"
+      }
+    }
+  },
+  {
+    "id": "553872",
+    "condition_id": "0x7a18c03e9dd79943a25c65a5b696378e54b5b7d236140edb5d157685ce96476a",
+    "question": "Will the Milwaukee Bucks win the 2026 NBA Finals?",
+    "slug": "will-the-milwaukee-bucks-win-the-2026-nba-finals",
+    "category": "",
+    "end_date": "2026-07-01T00:00:00Z",
+    "active": true,
+    "liquidity": 684309.67417,
+    "volume": 5282428.06187,
+    "volume_24h": 321382.1058329999,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0025,
+        "token_id": "45990013143445742554418902941609344301435090837151736095983841403365776942169"
+      },
+      "No": {
+        "price": 0.9975,
+        "token_id": "64634346694605544041215581235986248584974024218745113885051865881058253914827"
+      }
+    }
+  },
+  {
+    "id": "1324219",
+    "condition_id": "0x0644799bb478568238ebf79633378e5e1d87463c5b09bf3fe40f05fbb28249aa",
+    "question": "Will Elon Musk post 480-499 tweets from February 6 to February 13, 2026?",
+    "slug": "elon-musk-of-tweets-february-6-february-13-480-499",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 207216.67926,
+    "volume": 739373.851953,
+    "volume_24h": 312978.442847,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "35864451985904512061648532068004985445388110525607634006472859032581344419560"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "62685764950726976174976627202981948246563658425851858189220541358641307462195"
+      }
+    }
+  },
+  {
+    "id": "703258",
+    "condition_id": "0x0b4cc3b739e1dfe5d73274740e7308b6fb389c5af040c3a174923d928d134bee",
+    "question": "Will Jesus Christ return before 2027?",
+    "slug": "will-jesus-christ-return-before-2027",
+    "category": "",
+    "end_date": "2026-12-31T00:00:00Z",
+    "active": true,
+    "liquidity": 914146.34312,
+    "volume": 3200225.398707,
+    "volume_24h": 309631.6054849999,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0355,
+        "token_id": "69324317355037271422943965141382095011871956039434394956830818206664869608517"
+      },
+      "No": {
+        "price": 0.9645,
+        "token_id": "51797157743046504218541616681751597845468055908324407922581755135522797852101"
+      }
+    }
+  },
+  {
+    "id": "1358177",
+    "condition_id": "0xa953cb1479c3df97ea552628c1e50515df7e0889aac7d280cd1d6bf95a0f41a3",
+    "question": "Dota 2: Team Falcons vs Team Liquid (BO5) - BLAST Slam Playoffs",
+    "slug": "dota2-flc-liquid-2026-02-13",
+    "category": "",
+    "end_date": "2026-02-13T19:00:00Z",
+    "active": true,
+    "liquidity": 65269.5696,
+    "volume": 350619.847036,
+    "volume_24h": 309548.2296459997,
+    "outcomes": {
+      "Team Falcons": {
+        "price": 0.285,
+        "token_id": "85013613137165591467012410956160795815567099084261945111611862937971190913038"
+      },
+      "Team Liquid": {
+        "price": 0.715,
+        "token_id": "9114781738812277349538231263201356539880471676837087310713863707485133572463"
+      }
+    }
+  },
+  {
+    "id": "1345814",
+    "condition_id": "0x8d1fce5655ae29eac34e619e3ccbcb72232617acdc320b3009b37a74b5ab2e58",
+    "question": "Will the price of Bitcoin be above $64,000 on February 13?",
+    "slug": "bitcoin-above-64k-on-february-13",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 94333.54869,
+    "volume": 420028.777833,
+    "volume_24h": 303978.08674699994,
+    "outcomes": {
+      "Yes": {
+        "price": 0.9995,
+        "token_id": "47680289545801809322028600483794205587034769109260194448038539698736513824425"
+      },
+      "No": {
+        "price": 0.0005,
+        "token_id": "77151626993680918419855904035848013024938870716472296383265106570363930033910"
+      }
+    }
+  },
+  {
+    "id": "1364734",
+    "condition_id": "0x0262adc0b35c27c7b5d00211833a131066bf9c75a07be1b5b6eefe13c089b91a",
+    "question": "Bitcoin Up or Down - February 13, 12AM ET",
+    "slug": "bitcoin-up-or-down-february-13-12am-et",
+    "category": "",
+    "end_date": "2026-02-13T06:00:00Z",
+    "active": true,
+    "liquidity": 547333.4326,
+    "volume": 310210.444334,
+    "volume_24h": 294619.584334,
+    "outcomes": {
+      "Up": {
+        "price": 0.0005,
+        "token_id": "89290438394740532293560478854402078063195600438705211688163656469509288778360"
+      },
+      "Down": {
+        "price": 0.9995,
+        "token_id": "104169515771468186088567229604428502469226041713036570825624378034774955754297"
+      }
+    }
+  },
+  {
+    "id": "559659",
+    "condition_id": "0xe39adea057926dc197fe30a441f57a340b2a232d5a687010f78bba9b6e02620f",
+    "question": "Will Gretchen Whitmer win the 2028 Democratic presidential nomination?",
+    "slug": "will-gretchen-whitmer-win-the-2028-democratic-presidential-nomination-676",
+    "category": "",
+    "end_date": "2028-11-07T00:00:00Z",
+    "active": true,
+    "liquidity": 291312.95649,
+    "volume": 4715624.021354,
+    "volume_24h": 291164.48900499986,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0265,
+        "token_id": "57761428076807364758801249497410455358987881775226117256631754592198558850468"
+      },
+      "No": {
+        "price": 0.9735,
+        "token_id": "64300336035644500626313522990854070672468621241744347587785777226296613235598"
+      }
+    }
+  },
+  {
+    "id": "1324222",
+    "condition_id": "0x071eeb403c962005612e82fe1e462a23408e5294a6538c9488ece048a94bdf64",
+    "question": "Will Elon Musk post 520-539 tweets from February 6 to February 13, 2026?",
+    "slug": "elon-musk-of-tweets-february-6-february-13-520-539",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 106609.3034,
+    "volume": 682298.934386,
+    "volume_24h": 290485.084824,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "17907961406437706922547381265955057079106739970609970119661141607794189060311"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "46278489777583629722284734925271971099822809654453411917892643160478379305425"
+      }
+    }
+  },
+  {
+    "id": "566242",
+    "condition_id": "0x3bdd5a6ad40137100671169c1a5602992da863643a6c300bd3b76771d55b70f4",
+    "question": "Will Mallorca win the 2025–26 La Liga?",
+    "slug": "will-mallorca-win-the-202526-la-liga",
+    "category": "",
+    "end_date": "2026-05-30T00:00:00Z",
+    "active": true,
+    "liquidity": 55678.65393,
+    "volume": 6273447.014943,
+    "volume_24h": 284603.118712,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0055,
+        "token_id": "107730070120921326975458547565556522258151346670767146881297274797598153658544"
+      },
+      "No": {
+        "price": 0.9945,
+        "token_id": "48845834359190134639406942541996543077931192719956873891054278184219853251358"
+      }
+    }
+  },
+  {
+    "id": "1230243",
+    "condition_id": "0xa3ff280965905d8b827dd573d14d8deaa6cc127709fc0658a10ac1879e8f9d56",
+    "question": "Will Taro Kono be the Prime Minister of Japan as a result of the 2026 snap election?",
+    "slug": "will-taro-kono-be-the-prime-minister-of-japan-as-a-result-of-the-2026-snap-election",
+    "category": "",
+    "end_date": "2026-04-30T00:00:00Z",
+    "active": true,
+    "liquidity": 17915.29886,
+    "volume": 863616.940664,
+    "volume_24h": 282100.0,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "59829805939525943665203618505094636630263118242152927100493053322789178322426"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "74491680341274241756542499575484078704500527168342999492237474947151903899883"
+      }
+    }
+  },
+  {
+    "id": "1180303",
+    "condition_id": "0xd4bbf7f6707c67beb736135ad32a41f6db41f8ae52d3ac4919650de9eeb94ed8",
+    "question": "Khamenei out as Supreme Leader of Iran by February 28?",
+    "slug": "khamenei-out-as-supreme-leader-of-iran-by-february-28",
+    "category": "",
+    "end_date": "2026-02-28T00:00:00Z",
+    "active": true,
+    "liquidity": 520082.4712,
+    "volume": 7636731.86721,
+    "volume_24h": 281872.399547,
+    "outcomes": {
+      "Yes": {
+        "price": 0.045,
+        "token_id": "39317885422026394259056328144566743331998444273202427934141325790266108570112"
+      },
+      "No": {
+        "price": 0.955,
+        "token_id": "37975265083682450969967223199653164268542375291978582835346444673615244164455"
+      }
+    }
+  },
+  {
+    "id": "949285",
+    "condition_id": "0xe628654ec4fb2435952024d040a39f31cb03b93f4e2eb15d05b1e2a1a3fdb77b",
+    "question": "Will Bangladesh Jamaat-e-Islami win the most seats in the Bangladesh parliamentary election?",
+    "slug": "will-bangladesh-jamaat-e-islami-win-the-most-seats-in-the-bangladesh-parliamentary-election",
+    "category": "",
+    "end_date": "2026-02-12T00:00:00Z",
+    "active": true,
+    "liquidity": 208257.26249,
+    "volume": 1238512.40823,
+    "volume_24h": 279486.714674,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0005,
+        "token_id": "53797790604692016971383976401949445192035967941887024805400642981523546149508"
+      },
+      "No": {
+        "price": 0.9995,
+        "token_id": "20797569556326071171725695167924907329189964260230990984351579937544285478104"
+      }
+    }
+  },
+  {
+    "id": "566186",
+    "condition_id": "0x65a2dd0af5f4155915a701e8fdbcdb2f547fb5925d0bcef0b373a8c39a16613e",
+    "question": "Will Liverpool win the 2025–26 English Premier League?",
+    "slug": "will-liverpool-win-the-202526-english-premier-league",
+    "category": "",
+    "end_date": "2026-05-27T00:00:00Z",
+    "active": true,
+    "liquidity": 513663.61633,
+    "volume": 5318195.173412,
+    "volume_24h": 273615.3149200001,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0025,
+        "token_id": "45490428844116430227464511946812179496772833301930709619155920762438980078343"
+      },
+      "No": {
+        "price": 0.9975,
+        "token_id": "98019691446282827283674116828841315574891853949493251990346236030685612262858"
+      }
+    }
+  },
+  {
+    "id": "1336699",
+    "condition_id": "0xb957e0c6ec337b15a9d93e1ba19a48b410fc1594f022e3bb734e958a4978cdaf",
+    "question": "Starmer out by February 28, 2026?",
+    "slug": "starmer-out-by-february-28-2026-352-692",
+    "category": "",
+    "end_date": "2026-06-30T12:00:00Z",
+    "active": true,
+    "liquidity": 178072.6531,
+    "volume": 3618191.053859,
+    "volume_24h": 267271.951284,
+    "outcomes": {
+      "Yes": {
+        "price": 0.047,
+        "token_id": "74341056958547120660405490893413766202610642702385621904694146292080006615573"
+      },
+      "No": {
+        "price": 0.953,
+        "token_id": "31855172254398395022586050472162698729124802414870579979071243373446988334227"
+      }
+    }
+  },
+  {
+    "id": "1345775",
+    "condition_id": "0x2608346a6dc4bec293b31cf52e9f7fb8908b45f4c29b47bc6d800ec4d7d5f9be",
+    "question": "Will the price of Ethereum be above $1,700 on February 13?",
+    "slug": "ethereum-above-1700-on-february-13",
+    "category": "",
+    "end_date": "2026-02-13T17:00:00Z",
+    "active": true,
+    "liquidity": 59862.94806,
+    "volume": 309528.759202,
+    "volume_24h": 266365.822677,
+    "outcomes": {
+      "Yes": {
+        "price": 0.9995,
+        "token_id": "19806392681995050152145415361381031341700934231041945330332499154596825718777"
+      },
+      "No": {
+        "price": 0.0005,
+        "token_id": "3851334064266184984385791034930139756054194761541408106339840081862638553091"
+      }
+    }
+  },
+  {
+    "id": "1304200",
+    "condition_id": "0xc98e31d95733702687301fbb701ec462c0a64b46a8dfd5d8550b05785286b4b2",
+    "question": "Will BV Borussia 09 Dortmund win on 2026-02-13?",
+    "slug": "bun-dor-mai-2026-02-13-dor",
+    "category": "",
+    "end_date": "2026-02-13T19:30:00Z",
+    "active": true,
+    "liquidity": 633856.1421,
+    "volume": 405047.226437,
+    "volume_24h": 263496.7182560001,
+    "outcomes": {
+      "Yes": {
+        "price": 0.605,
+        "token_id": "100570908927068515509677841996306638743852325829905520402928222919128497550373"
+      },
+      "No": {
+        "price": 0.395,
+        "token_id": "104903034616022676815516266138175398937448101087210126941621959708078949449917"
+      }
+    }
+  },
+  {
+    "id": "1277911",
+    "condition_id": "0x348ade0c7df38c4fc23abb31eb7d74ee6bc7064dc0e2709a872be434857de1a9",
+    "question": "Will Israel strike Gaza on February 10, 2026?",
+    "slug": "will-israel-strike-gaza-on-february-10-2026",
+    "category": "",
+    "end_date": "2026-02-28T00:00:00Z",
+    "active": true,
+    "liquidity": 11452.0874,
+    "volume": 539404.522229,
+    "volume_24h": 261199.68840300047,
+    "outcomes": {
+      "Yes": {
+        "price": 0.85,
+        "token_id": "90634485220348567010487403898898034515905559314758884562376038856164729095105"
+      },
+      "No": {
+        "price": 0.15,
+        "token_id": "13008907632681262873929884516092415104789981447506870934545279581467422926524"
+      }
+    }
+  },
+  {
+    "id": "559683",
+    "condition_id": "0x822e61527476cabf98927e3aad385c5ecdae7086f945535f2c1fd9ae8dbfa46e",
+    "question": "Will George Clooney win the 2028 Democratic presidential nomination?",
+    "slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination",
+    "category": "",
+    "end_date": "2028-11-07T00:00:00Z",
+    "active": true,
+    "liquidity": 1162390.89421,
+    "volume": 29240925.787368,
+    "volume_24h": 260432.15644800005,
+    "outcomes": {
+      "Yes": {
+        "price": 0.008,
+        "token_id": "48218088132821386640274752564592889805082274744128282833036735027928992155024"
+      },
+      "No": {
+        "price": 0.992,
+        "token_id": "5645396948464928632054207670692862818297222862819597089648758232622731040046"
+      }
+    }
+  },
+  {
+    "id": "561256",
+    "condition_id": "0xf05b4b55336a4c1c7b44c726911d2b559732cff7bad339084de86ae364dc85f6",
+    "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
+    "slug": "will-zohran-mamdani-win-the-2028-us-presidential-election",
+    "category": "",
+    "end_date": "2028-11-07T00:00:00Z",
+    "active": true,
+    "liquidity": 776190.36899,
+    "volume": 9611083.152298,
+    "volume_24h": 256464.97038500002,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0085,
+        "token_id": "94621929236241392639802280031607240386237812521756048982107414565863464212526"
+      },
+      "No": {
+        "price": 0.9915,
+        "token_id": "37476438367629084207797870684242875797541797912993121111059056752005821579571"
+      }
+    }
+  },
+  {
+    "id": "997488",
+    "condition_id": "0xd595eb9b81885ff018738300c79047e3ec89e87294424f57a29a7fa9162bf116",
+    "question": "Will Trump acquire Greenland before 2027?",
+    "slug": "will-trump-acquire-greenland-before-2027",
+    "category": "",
+    "end_date": "2026-12-31T00:00:00Z",
+    "active": true,
+    "liquidity": 466820.4023,
+    "volume": 27770551.663556,
+    "volume_24h": 255228.90272500005,
+    "outcomes": {
+      "Yes": {
+        "price": 0.125,
+        "token_id": "5161623255678193352839985156330393796378434470119114669671615782853260939535"
+      },
+      "No": {
+        "price": 0.875,
+        "token_id": "57216272564529548464686463691236811991956032201293786790337952253964682584376"
+      }
+    }
+  },
+  {
+    "id": "1281562",
+    "condition_id": "0xa2b6014de38efec2b399cf5378923c3bf899ebcfab35ddbe23f1f038945d3b1f",
+    "question": "Ilhan Omar town hall attack staged?",
+    "slug": "ilhan-omar-town-hall-attack-staged",
+    "category": "",
+    "end_date": "2026-02-28T00:00:00Z",
+    "active": true,
+    "liquidity": 172151.88096,
+    "volume": 2454662.398704,
+    "volume_24h": 254985.0268540001,
+    "outcomes": {
+      "Yes": {
+        "price": 0.008,
+        "token_id": "39929167511806129269566211555484180799427968863569900452082867390507107270299"
+      },
+      "No": {
+        "price": 0.992,
+        "token_id": "13254241531379113814268623702591445764028502818838968001780086361032892261649"
+      }
+    }
+  },
+  {
+    "id": "561995",
+    "condition_id": "0x41c6341dd79903aca4bb0c29f5a7976946c3774d2fd72f38cbb7de7092144520",
+    "question": "Will Mike Pence win the 2028 Republican presidential nomination?",
+    "slug": "will-mike-pence-win-the-2028-republican-presidential-nomination",
+    "category": "",
+    "end_date": "2028-11-07T00:00:00Z",
+    "active": true,
+    "liquidity": 539147.70931,
+    "volume": 21854890.937386,
+    "volume_24h": 249457.582304,
+    "outcomes": {
+      "Yes": {
+        "price": 0.0085,
+        "token_id": "110467341601356058460373968989438018821471776813704553223329002744055822742107"
+      },
+      "No": {
+        "price": 0.9915,
+        "token_id": "11478861872612841666414979216747716059947331582670297431884562915546151249374"
+      }
+    }
+  },
+  {
+    "id": "549874",
+    "condition_id": "0xaf8805982bfa850ee297c49d93f8168d1a273ca73b252f3c588ac2fba6f0ae08",
+    "question": "Will Rob Jetten become the next Prime Minister of the Netherlands?",
+    "slug": "will-rob-jetten-become-the-next-prime-minister-of-the-netherlands",
+    "category": "",
+    "end_date": "2026-12-31T00:00:00Z",
+    "active": true,
+    "liquidity": 23370.79157,
+    "volume": 3731988.364887,
+    "volume_24h": 247516.80224999992,
+    "outcomes": {
+      "Yes": {
+        "price": 0.993,
+        "token_id": "68340762143816399095520327696600305595541824139381182469383319268673352219749"
+      },
+      "No": {
+        "price": 0.007,
+        "token_id": "114239611691511021208443537216704441716668385504311894224288007804313757247036"
+      }
+    }
+  }
+]

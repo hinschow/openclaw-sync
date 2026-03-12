@@ -1,0 +1,308 @@
+[
+  {
+    "name": "0xE594336603F4fB5d3ba4125a67021ab3B4347052-1769022918519",
+    "rank": 2,
+    "wallet": "0xe594336603f4fb5d3ba4125a67021ab3b4347052",
+    "records": 3100,
+    "span_days": 0,
+    "oldest": "2026-02-14T23:14:51",
+    "newest": "2026-02-15T00:02:07"
+  },
+  {
+    "name": "0x1979ae6B7E6534dE9c4539D0c205E582cA637C9D-1769439463256",
+    "rank": 3,
+    "wallet": "0x1979ae6b7e6534de9c4539d0c205e582ca637c9d",
+    "records": 3100,
+    "span_days": 0,
+    "oldest": "2026-02-14T22:35:11",
+    "newest": "2026-02-15T00:11:25"
+  },
+  {
+    "name": "sovereign2013",
+    "rank": 4,
+    "wallet": "0xee613b3fc183ee44f9da9c05f53e2da107e3debf",
+    "records": 3100,
+    "span_days": 0,
+    "oldest": "2026-02-14T16:20:55",
+    "newest": "2026-02-15T00:11:19"
+  },
+  {
+    "name": "swisstony",
+    "rank": 5,
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "records": 3100,
+    "span_days": 0,
+    "oldest": "2026-02-14T23:12:39",
+    "newest": "2026-02-15T00:10:33"
+  },
+  {
+    "name": "k9Q2mX4L8A7ZP3R",
+    "rank": 6,
+    "wallet": "0xd0d6053c3c37e727402d84c14069780d360993aa",
+    "records": 3100,
+    "span_days": 0,
+    "oldest": "2026-02-14T23:36:17",
+    "newest": "2026-02-15T00:11:11"
+  },
+  {
+    "name": "0x8dxd",
+    "rank": 7,
+    "wallet": "0x63ce342161250d705dc0b16df89036c8e5f9ba9a",
+    "records": 3100,
+    "span_days": 0,
+    "oldest": "2026-02-14T22:58:21",
+    "newest": "2026-02-15T00:11:11"
+  },
+  {
+    "name": "c0O0O0OLI0O0O0",
+    "rank": 8,
+    "wallet": "0xfedc381bf3fb5d20433bb4a0216b15dbbc5c6398",
+    "records": 3100,
+    "span_days": 2,
+    "oldest": "2026-02-12T21:08:57",
+    "newest": "2026-02-15T00:09:27"
+  },
+  {
+    "name": "gloriafoster",
+    "rank": 9,
+    "wallet": "0x5d189e816b4149be00977c1a3c8840374aec4972",
+    "records": 3100,
+    "span_days": 1,
+    "oldest": "2026-02-13T10:49:27",
+    "newest": "2026-02-15T00:09:23"
+  },
+  {
+    "name": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
+    "rank": 10,
+    "wallet": "0x492442eab586f242b53bda933fd5de859c8a3782",
+    "records": 3100,
+    "span_days": 23,
+    "oldest": "2026-01-22T07:30:36",
+    "newest": "2026-02-14T23:14:03"
+  },
+  {
+    "name": "tripping",
+    "rank": 12,
+    "wallet": "0x6480542954b70a674a74bd1a6015dec362dc8dc5",
+    "records": 3100,
+    "span_days": 8,
+    "oldest": "2026-02-06T18:09:23",
+    "newest": "2026-02-15T00:11:31"
+  },
+  {
+    "name": "gabagool22",
+    "rank": 13,
+    "wallet": "0x6031b6eed1c97e853c6e0f03ad3ce3529351f96d",
+    "records": 3100,
+    "span_days": 0,
+    "oldest": "2026-02-14T23:55:45",
+    "newest": "2026-02-15T00:11:37"
+  },
+  {
+    "name": "RN1",
+    "rank": 14,
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "records": 3100,
+    "span_days": 0,
+    "oldest": "2026-02-14T22:45:15",
+    "newest": "2026-02-15T00:11:25"
+  },
+  {
+    "name": "GamblingIsAllYouNeed",
+    "rank": 15,
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "records": 3100,
+    "span_days": 0,
+    "oldest": "2026-02-14T21:39:51",
+    "newest": "2026-02-15T00:12:05"
+  },
+  {
+    "name": "VeryLucky888",
+    "rank": 16,
+    "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+    "records": 3100,
+    "span_days": 0,
+    "oldest": "2026-02-14T17:23:13",
+    "newest": "2026-02-15T00:12:09"
+  },
+  {
+    "name": "0x0eA574F3204C5c9C0cdEad90392ea0990F4D17e4-1769515653156",
+    "rank": 17,
+    "wallet": "0x0ea574f3204c5c9c0cdead90392ea0990f4d17e4",
+    "records": 3100,
+    "span_days": 0,
+    "oldest": "2026-02-14T23:25:27",
+    "newest": "2026-02-15T00:12:05"
+  },
+  {
+    "name": "0xb7511d7b0dcb75ffad0507cbac7223653d08915",
+    "rank": 20,
+    "wallet": "0xe60a9b0be459d9849bc2339dac20517639ae6a47",
+    "records": 3100,
+    "span_days": 1,
+    "oldest": "2026-02-13T06:17:31",
+    "newest": "2026-02-14T10:39:45"
+  },
+  {
+    "name": "beachboy4",
+    "rank": 21,
+    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+    "records": 3100,
+    "span_days": 24,
+    "oldest": "2026-01-21T03:30:06",
+    "newest": "2026-02-14T08:18:51"
+  },
+  {
+    "name": "kch123",
+    "rank": 22,
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "records": 3100,
+    "span_days": 10,
+    "oldest": "2026-02-03T11:48:08",
+    "newest": "2026-02-13T20:04:43"
+  },
+  {
+    "name": "PuzzleTricker",
+    "rank": 23,
+    "wallet": "0x003932bc605249fbfeb9ea6c3e15ec6e868a6beb",
+    "records": 671,
+    "span_days": 12,
+    "oldest": "2026-01-31T23:24:04",
+    "newest": "2026-02-13T16:17:09"
+  },
+  {
+    "name": "FeatherLeather",
+    "rank": 24,
+    "wallet": "0xd25c72ac0928385610611c8148803dc717334d20",
+    "records": 678,
+    "span_days": 10,
+    "oldest": "2026-01-30T03:28:28",
+    "newest": "2026-02-09T17:59:09"
+  },
+  {
+    "name": "DrPufferfish",
+    "rank": 25,
+    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+    "records": 3100,
+    "span_days": 1,
+    "oldest": "2026-02-13T01:29:05",
+    "newest": "2026-02-14T23:18:55"
+  },
+  {
+    "name": "0x876426B52898C295848f56760dd24B55Eda2604a-1770663426746",
+    "rank": 26,
+    "wallet": "0x876426b52898c295848f56760dd24b55eda2604a",
+    "records": 3100,
+    "span_days": 1,
+    "oldest": "2026-02-12T05:07:33",
+    "newest": "2026-02-13T16:00:39"
+  },
+  {
+    "name": "anoin123",
+    "rank": 27,
+    "wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+    "records": 3100,
+    "span_days": 1,
+    "oldest": "2026-02-13T01:22:41",
+    "newest": "2026-02-15T00:07:39"
+  },
+  {
+    "name": "weflyhigh",
+    "rank": 28,
+    "wallet": "0x03e8a544e97eeff5753bc1e90d46e5ef22af1697",
+    "records": 3100,
+    "span_days": 4,
+    "oldest": "2026-02-10T00:43:57",
+    "newest": "2026-02-15T00:12:09"
+  },
+  {
+    "name": "gmpm",
+    "rank": 29,
+    "wallet": "0x14964aefa2cd7caff7878b3820a690a03c5aa429",
+    "records": 3100,
+    "span_days": 4,
+    "oldest": "2026-02-09T02:29:03",
+    "newest": "2026-02-13T23:24:45"
+  },
+  {
+    "name": "0x1D8A377C5020f612cE63a0a151970DF64BAAE842-1761442049319",
+    "rank": 30,
+    "wallet": "0x1d8a377c5020f612ce63a0a151970df64baae842",
+    "records": 1098,
+    "span_days": 105,
+    "oldest": "2025-10-27T07:26:59",
+    "newest": "2026-02-09T18:18:17"
+  },
+  {
+    "name": "MrSparklySimpsons",
+    "rank": 31,
+    "wallet": "0xd0b4c4c020abdc88ad9a884f999f3d8cff8ffed6",
+    "records": 3100,
+    "span_days": 5,
+    "oldest": "2026-02-03T22:48:14",
+    "newest": "2026-02-09T15:29:59"
+  },
+  {
+    "name": "BWArmageddon",
+    "rank": 32,
+    "wallet": "0x9976874011b081e1e408444c579f48aa5b5967da",
+    "records": 3100,
+    "span_days": 16,
+    "oldest": "2026-01-29T01:43:58",
+    "newest": "2026-02-14T22:59:53"
+  },
+  {
+    "name": "tbs8t",
+    "rank": 33,
+    "wallet": "0x4bd74aef0ee5f1ec0718890f55c15f047e28373e",
+    "records": 3100,
+    "span_days": 3,
+    "oldest": "2026-02-06T09:40:57",
+    "newest": "2026-02-09T20:37:15"
+  },
+  {
+    "name": "WOMENBESHOPPING",
+    "rank": 34,
+    "wallet": "0x13414a77a4be48988851c73dfd824d0168e70853",
+    "records": 3100,
+    "span_days": 3,
+    "oldest": "2026-02-11T11:56:47",
+    "newest": "2026-02-15T00:10:25"
+  },
+  {
+    "name": "chungguskhan",
+    "rank": 35,
+    "wallet": "0x7744bfd749a70020d16a1fcbac1d064761c9999e",
+    "records": 3100,
+    "span_days": 14,
+    "oldest": "2026-01-31T08:16:34",
+    "newest": "2026-02-14T23:02:13"
+  },
+  {
+    "name": "C.SIN",
+    "rank": 36,
+    "wallet": "0x91654fd592ea5339fc0b1b2f2b30bfffa5e75b98",
+    "records": 3100,
+    "span_days": 68,
+    "oldest": "2025-12-04T08:26:09",
+    "newest": "2026-02-11T06:26:21"
+  },
+  {
+    "name": "hioa",
+    "rank": 37,
+    "wallet": "0xccb290b1c145d1c95695d3756346bba9f1398586",
+    "records": 1112,
+    "span_days": 40,
+    "oldest": "2026-01-05T01:51:59",
+    "newest": "2026-02-15T00:13:19"
+  },
+  {
+    "name": "Vanchalkenstein",
+    "rank": 38,
+    "wallet": "0x9c16127eccf031df45461ef1e04b52ea286a09cb",
+    "records": 3100,
+    "span_days": 32,
+    "oldest": "2026-01-13T03:50:19",
+    "newest": "2026-02-14T08:38:47"
+  }
+]

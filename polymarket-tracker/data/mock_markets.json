@@ -1,0 +1,632 @@
+[
+  {
+    "id": "market_1",
+    "condition_id": "0x4293c7f571870e37130a50827a924c3d158c679666f691071bb57edd5740856a",
+    "question": "Will BTC exceed $100k by end of Q1 2026?",
+    "category": "Politics",
+    "end_date": "2026-09-04T17:30:02.911363",
+    "active": true,
+    "liquidity": 12764.67,
+    "volume": 1446974.33,
+    "volume_24h": 35654.72,
+    "outcomes": {
+      "Yes": {
+        "price": 0.58,
+        "token_id": "token_yes_1"
+      },
+      "No": {
+        "price": 0.42,
+        "token_id": "token_no_1"
+      }
+    }
+  },
+  {
+    "id": "market_2",
+    "condition_id": "0xfd21ac8830fd096561ab6a9eda0c1aafd88a733a200900925716ef9a649b4871",
+    "question": "Will the Fed cut rates in March 2026?",
+    "category": "Finance",
+    "end_date": "2026-06-10T17:30:02.911378",
+    "active": true,
+    "liquidity": 487388.77,
+    "volume": 256411.54,
+    "volume_24h": 48882.76,
+    "outcomes": {
+      "Yes": {
+        "price": 0.74,
+        "token_id": "token_yes_2"
+      },
+      "No": {
+        "price": 0.26,
+        "token_id": "token_no_2"
+      }
+    }
+  },
+  {
+    "id": "market_3",
+    "condition_id": "0x81144a3e8e12ed0d0d811423e64b41a29e16677fffc4c074a5fe966856623217",
+    "question": "Will ETH flip BTC market cap in 2026?",
+    "category": "World Events",
+    "end_date": "2026-05-06T17:30:02.911388",
+    "active": true,
+    "liquidity": 126254.44,
+    "volume": 206849.05,
+    "volume_24h": 16867.78,
+    "outcomes": {
+      "Yes": {
+        "price": 0.58,
+        "token_id": "token_yes_3"
+      },
+      "No": {
+        "price": 0.42,
+        "token_id": "token_no_3"
+      }
+    }
+  },
+  {
+    "id": "market_4",
+    "condition_id": "0x965ef12d7d1b28012fac96e74608798d5ea102707dd49a0563f97c0b0563845c",
+    "question": "Will Trump win 2028 Republican primary?",
+    "category": "World Events",
+    "end_date": "2027-02-11T17:30:02.911399",
+    "active": true,
+    "liquidity": 95481.7,
+    "volume": 215247.59,
+    "volume_24h": 22328.29,
+    "outcomes": {
+      "Yes": {
+        "price": 0.05,
+        "token_id": "token_yes_4"
+      },
+      "No": {
+        "price": 0.95,
+        "token_id": "token_no_4"
+      }
+    }
+  },
+  {
+    "id": "market_5",
+    "condition_id": "0x91b7bf55c1788a474336004af46fefefa54ab938f0e3a92efc6ad62fb2a0d46e",
+    "question": "Will China invade Taiwan by 2027?",
+    "category": "Politics",
+    "end_date": "2026-09-17T17:30:02.911408",
+    "active": true,
+    "liquidity": 14087.61,
+    "volume": 1587159.34,
+    "volume_24h": 43631.0,
+    "outcomes": {
+      "Yes": {
+        "price": 0.64,
+        "token_id": "token_yes_5"
+      },
+      "No": {
+        "price": 0.36,
+        "token_id": "token_no_5"
+      }
+    }
+  },
+  {
+    "id": "market_6",
+    "condition_id": "0xe955cddcf3309778bf235b41b216a560ead53addc26225fb5348564f46c6110b",
+    "question": "Will OpenAI release GPT-6 in 2026?",
+    "category": "Politics",
+    "end_date": "2026-04-10T17:30:02.911417",
+    "active": true,
+    "liquidity": 441192.44,
+    "volume": 584585.87,
+    "volume_24h": 42523.1,
+    "outcomes": {
+      "Yes": {
+        "price": 0.32,
+        "token_id": "token_yes_6"
+      },
+      "No": {
+        "price": 0.68,
+        "token_id": "token_no_6"
+      }
+    }
+  },
+  {
+    "id": "market_7",
+    "condition_id": "0x73d4252835b5faa6e48ce65f914a15359ca506e521f00c66550e1404cc931c10",
+    "question": "Will Tesla stock reach $500 by June 2026?",
+    "category": "Crypto",
+    "end_date": "2026-03-19T17:30:02.911425",
+    "active": true,
+    "liquidity": 169107.82,
+    "volume": 271975.97,
+    "volume_24h": 20041.99,
+    "outcomes": {
+      "Yes": {
+        "price": 0.51,
+        "token_id": "token_yes_7"
+      },
+      "No": {
+        "price": 0.49,
+        "token_id": "token_no_7"
+      }
+    }
+  },
+  {
+    "id": "market_8",
+    "condition_id": "0x0bcc8f9a3b40b98d52d6642319a80aea8c6cab60acf0374ac3d8b73fef05a5f6",
+    "question": "Will there be a US recession in 2026?",
+    "category": "Tech",
+    "end_date": "2026-04-14T17:30:02.911437",
+    "active": true,
+    "liquidity": 190905.91,
+    "volume": 1014983.51,
+    "volume_24h": 48642.79,
+    "outcomes": {
+      "Yes": {
+        "price": 0.47,
+        "token_id": "token_yes_8"
+      },
+      "No": {
+        "price": 0.53,
+        "token_id": "token_no_8"
+      }
+    }
+  },
+  {
+    "id": "market_9",
+    "condition_id": "0x6dece7df4ef9a8ed7b830491bf325c229fd5b69bb8ff2b65f3be453f9d5ea623",
+    "question": "Will Solana ETF be approved in 2026?",
+    "category": "World Events",
+    "end_date": "2026-03-31T17:30:02.911449",
+    "active": true,
+    "liquidity": 484931.99,
+    "volume": 104619.22,
+    "volume_24h": 6897.81,
+    "outcomes": {
+      "Yes": {
+        "price": 0.67,
+        "token_id": "token_yes_9"
+      },
+      "No": {
+        "price": 0.33,
+        "token_id": "token_no_9"
+      }
+    }
+  },
+  {
+    "id": "market_10",
+    "condition_id": "0xbf9de8d7da9d92a9e197b968521315f5abfdfbc1044f53af6f47d55fcfb2d7c0",
+    "question": "Will gold reach $3000/oz in 2026?",
+    "category": "Finance",
+    "end_date": "2026-10-13T17:30:02.911458",
+    "active": true,
+    "liquidity": 420745.86,
+    "volume": 734699.12,
+    "volume_24h": 45573.96,
+    "outcomes": {
+      "Yes": {
+        "price": 0.62,
+        "token_id": "token_yes_10"
+      },
+      "No": {
+        "price": 0.38,
+        "token_id": "token_no_10"
+      }
+    }
+  },
+  {
+    "id": "market_11",
+    "condition_id": "0xf6302d0a21346a8147b04a866fdaf649b228b50916323c86025db2c2ea4c497b",
+    "question": "Will Ukraine join NATO by 2027?",
+    "category": "World Events",
+    "end_date": "2026-06-03T17:30:02.911466",
+    "active": true,
+    "liquidity": 170335.06,
+    "volume": 1557145.16,
+    "volume_24h": 13393.28,
+    "outcomes": {
+      "Yes": {
+        "price": 0.79,
+        "token_id": "token_yes_11"
+      },
+      "No": {
+        "price": 0.21,
+        "token_id": "token_no_11"
+      }
+    }
+  },
+  {
+    "id": "market_12",
+    "condition_id": "0xa3247de66d6856ccfbaad39369b104cdfcc46e578fe571af2825d51fc5107fa3",
+    "question": "Will Apple release AR glasses in 2026?",
+    "category": "World Events",
+    "end_date": "2026-06-03T17:30:02.911474",
+    "active": true,
+    "liquidity": 404499.12,
+    "volume": 1216007.63,
+    "volume_24h": 2691.02,
+    "outcomes": {
+      "Yes": {
+        "price": 0.33,
+        "token_id": "token_yes_12"
+      },
+      "No": {
+        "price": 0.67,
+        "token_id": "token_no_12"
+      }
+    }
+  },
+  {
+    "id": "market_13",
+    "condition_id": "0xe7d129e1595ab939c2fbb094af3c0158c665c4aff834ef73b12f504cd6557ef7",
+    "question": "Will inflation drop below 2% in 2026?",
+    "category": "World Events",
+    "end_date": "2026-12-21T17:30:02.911481",
+    "active": true,
+    "liquidity": 401272.93,
+    "volume": 1409489.19,
+    "volume_24h": 15597.67,
+    "outcomes": {
+      "Yes": {
+        "price": 0.53,
+        "token_id": "token_yes_13"
+      },
+      "No": {
+        "price": 0.47,
+        "token_id": "token_no_13"
+      }
+    }
+  },
+  {
+    "id": "market_14",
+    "condition_id": "0x17bc5a2c073678ba28e22226aeea3de6ebc7cb94da5eaac3b005fffa85ca9e1b",
+    "question": "Will SpaceX land humans on Mars by 2030?",
+    "category": "Tech",
+    "end_date": "2026-05-08T17:30:02.911489",
+    "active": true,
+    "liquidity": 9800.97,
+    "volume": 1951470.9,
+    "volume_24h": 43877.09,
+    "outcomes": {
+      "Yes": {
+        "price": 0.84,
+        "token_id": "token_yes_14"
+      },
+      "No": {
+        "price": 0.16,
+        "token_id": "token_no_14"
+      }
+    }
+  },
+  {
+    "id": "market_15",
+    "condition_id": "0xf87da85d08427cbf0d6b9f0e8017a1c3210e5619790c6de52539c959fc372481",
+    "question": "Will the S&P 500 reach 7000 in 2026?",
+    "category": "Tech",
+    "end_date": "2026-10-31T17:30:02.911496",
+    "active": true,
+    "liquidity": 145878.72,
+    "volume": 1713795.6,
+    "volume_24h": 14840.8,
+    "outcomes": {
+      "Yes": {
+        "price": 0.86,
+        "token_id": "token_yes_15"
+      },
+      "No": {
+        "price": 0.14,
+        "token_id": "token_no_15"
+      }
+    }
+  },
+  {
+    "id": "market_16",
+    "condition_id": "0x48f51739bd95d38265a0c149352e3ec35a8a0eb8d0e9b2ca7b07121439bd0dc1",
+    "question": "Will a major bank adopt Bitcoin reserves?",
+    "category": "Sports",
+    "end_date": "2026-05-30T17:30:02.911504",
+    "active": true,
+    "liquidity": 149363.56,
+    "volume": 1840233.76,
+    "volume_24h": 6984.59,
+    "outcomes": {
+      "Yes": {
+        "price": 0.61,
+        "token_id": "token_yes_16"
+      },
+      "No": {
+        "price": 0.39,
+        "token_id": "token_no_16"
+      }
+    }
+  },
+  {
+    "id": "market_17",
+    "condition_id": "0x931ace120543967009196b0489b39d685fca23ee2592bd1a2f103d15b4fcce41",
+    "question": "Will EU ban TikTok in 2026?",
+    "category": "Finance",
+    "end_date": "2027-02-08T17:30:02.911511",
+    "active": true,
+    "liquidity": 477875.41,
+    "volume": 562282.9,
+    "volume_24h": 33551.06,
+    "outcomes": {
+      "Yes": {
+        "price": 0.67,
+        "token_id": "token_yes_17"
+      },
+      "No": {
+        "price": 0.33,
+        "token_id": "token_no_17"
+      }
+    }
+  },
+  {
+    "id": "market_18",
+    "condition_id": "0x69d3533ab1a04b0ca787ff2db5e2bfc87bdbaca3fec70ab245d050d80de4e5eb",
+    "question": "Will Japan raise interest rates again?",
+    "category": "Crypto",
+    "end_date": "2026-06-07T17:30:02.911539",
+    "active": true,
+    "liquidity": 111307.48,
+    "volume": 81507.79,
+    "volume_24h": 46716.72,
+    "outcomes": {
+      "Yes": {
+        "price": 0.52,
+        "token_id": "token_yes_18"
+      },
+      "No": {
+        "price": 0.48,
+        "token_id": "token_no_18"
+      }
+    }
+  },
+  {
+    "id": "market_19",
+    "condition_id": "0xa18f65c6d1644351f30d43643688be7630546a61f89326f80d5811872b116d58",
+    "question": "Will Dogecoin reach $1 in 2026?",
+    "category": "Tech",
+    "end_date": "2026-04-08T17:30:02.911553",
+    "active": true,
+    "liquidity": 55819.9,
+    "volume": 378338.94,
+    "volume_24h": 5746.0,
+    "outcomes": {
+      "Yes": {
+        "price": 0.6,
+        "token_id": "token_yes_19"
+      },
+      "No": {
+        "price": 0.4,
+        "token_id": "token_no_19"
+      }
+    }
+  },
+  {
+    "id": "market_20",
+    "condition_id": "0xe91048bb930454da16410904c625c30de5cdf772ee3c3775dc905c16c881cbb9",
+    "question": "Will there be a major cyber attack on US infrastructure?",
+    "category": "Tech",
+    "end_date": "2026-11-18T17:30:02.911564",
+    "active": true,
+    "liquidity": 83773.96,
+    "volume": 1409582.82,
+    "volume_24h": 21014.06,
+    "outcomes": {
+      "Yes": {
+        "price": 0.29,
+        "token_id": "token_yes_20"
+      },
+      "No": {
+        "price": 0.71,
+        "token_id": "token_no_20"
+      }
+    }
+  },
+  {
+    "id": "market_21",
+    "condition_id": "0xcda87340a870a8f746175c29f211af4de930336028aa0c183928084c6fe9a4fa",
+    "question": "Will India's GDP growth exceed 8% in 2026?",
+    "category": "Finance",
+    "end_date": "2026-12-07T17:30:02.911572",
+    "active": true,
+    "liquidity": 68308.55,
+    "volume": 208696.5,
+    "volume_24h": 9888.1,
+    "outcomes": {
+      "Yes": {
+        "price": 0.05,
+        "token_id": "token_yes_21"
+      },
+      "No": {
+        "price": 0.95,
+        "token_id": "token_no_21"
+      }
+    }
+  },
+  {
+    "id": "market_22",
+    "condition_id": "0x96324813916bbeb29ad233c29da6374192492088e43a4fd9917b8d5e7aa4045a",
+    "question": "Will Netflix stock double in 2026?",
+    "category": "Politics",
+    "end_date": "2027-01-13T17:30:02.911579",
+    "active": true,
+    "liquidity": 393908.11,
+    "volume": 1184408.95,
+    "volume_24h": 46889.11,
+    "outcomes": {
+      "Yes": {
+        "price": 0.28,
+        "token_id": "token_yes_22"
+      },
+      "No": {
+        "price": 0.72,
+        "token_id": "token_no_22"
+      }
+    }
+  },
+  {
+    "id": "market_23",
+    "condition_id": "0x31dac468e53ee2302c31e44c8eec0939c02851695fa414719356343225f66f21",
+    "question": "Will a new COVID variant cause lockdowns?",
+    "category": "Sports",
+    "end_date": "2026-08-14T17:30:02.911586",
+    "active": true,
+    "liquidity": 121328.06,
+    "volume": 1572302.9,
+    "volume_24h": 31262.24,
+    "outcomes": {
+      "Yes": {
+        "price": 0.26,
+        "token_id": "token_yes_23"
+      },
+      "No": {
+        "price": 0.74,
+        "token_id": "token_no_23"
+      }
+    }
+  },
+  {
+    "id": "market_24",
+    "condition_id": "0x53cf0c393ae6b2668c23888209858983038fd953f2cfc8008fc8614de1d7d363",
+    "question": "Will the US debt ceiling be raised?",
+    "category": "Finance",
+    "end_date": "2026-06-02T17:30:02.911594",
+    "active": true,
+    "liquidity": 242561.44,
+    "volume": 1311762.16,
+    "volume_24h": 31787.48,
+    "outcomes": {
+      "Yes": {
+        "price": 0.21,
+        "token_id": "token_yes_24"
+      },
+      "No": {
+        "price": 0.79,
+        "token_id": "token_no_24"
+      }
+    }
+  },
+  {
+    "id": "market_25",
+    "condition_id": "0xc109bdb4e84c52319374e55f5f069a5b7b4b776aba4ea077d3ba79b005633bad",
+    "question": "Will Ethereum switch to a new consensus?",
+    "category": "Tech",
+    "end_date": "2027-02-26T17:30:02.911601",
+    "active": true,
+    "liquidity": 210942.82,
+    "volume": 102883.7,
+    "volume_24h": 16018.13,
+    "outcomes": {
+      "Yes": {
+        "price": 0.31,
+        "token_id": "token_yes_25"
+      },
+      "No": {
+        "price": 0.69,
+        "token_id": "token_no_25"
+      }
+    }
+  },
+  {
+    "id": "market_26",
+    "condition_id": "0x2ae62f109a16f1eefaa764e9e2e9d1b66a140085987d9a79ec20ad8e440c978c",
+    "question": "Will oil prices drop below $50/barrel?",
+    "category": "Sports",
+    "end_date": "2026-10-13T17:30:02.911609",
+    "active": true,
+    "liquidity": 263901.42,
+    "volume": 1272809.97,
+    "volume_24h": 27472.41,
+    "outcomes": {
+      "Yes": {
+        "price": 0.58,
+        "token_id": "token_yes_26"
+      },
+      "No": {
+        "price": 0.42,
+        "token_id": "token_no_26"
+      }
+    }
+  },
+  {
+    "id": "market_27",
+    "condition_id": "0x01557a891cd837f1d499453d11885f1a16e8dc1d7ca0f2d639ac0caf266d189f",
+    "question": "Will Argentina dollarize fully?",
+    "category": "Crypto",
+    "end_date": "2027-02-04T17:30:02.911619",
+    "active": true,
+    "liquidity": 248167.92,
+    "volume": 1298358.16,
+    "volume_24h": 28541.68,
+    "outcomes": {
+      "Yes": {
+        "price": 0.34,
+        "token_id": "token_yes_27"
+      },
+      "No": {
+        "price": 0.66,
+        "token_id": "token_no_27"
+      }
+    }
+  },
+  {
+    "id": "market_28",
+    "condition_id": "0xa3db1ff216ea5afb60ade3f539204b356aef642f7e01ade6fcc036854dbb7174",
+    "question": "Will North Korea conduct nuclear test?",
+    "category": "Tech",
+    "end_date": "2026-11-08T17:30:02.911626",
+    "active": true,
+    "liquidity": 46902.35,
+    "volume": 1182602.42,
+    "volume_24h": 47825.52,
+    "outcomes": {
+      "Yes": {
+        "price": 0.67,
+        "token_id": "token_yes_28"
+      },
+      "No": {
+        "price": 0.33,
+        "token_id": "token_no_28"
+      }
+    }
+  },
+  {
+    "id": "market_29",
+    "condition_id": "0x81bc349f3d53b31d5f19ea44ee13e62d548355cdef4771da7b1b01b7c6da2d01",
+    "question": "Will global temperatures hit new record?",
+    "category": "World Events",
+    "end_date": "2026-04-25T17:30:02.911637",
+    "active": true,
+    "liquidity": 169300.19,
+    "volume": 763314.93,
+    "volume_24h": 27493.1,
+    "outcomes": {
+      "Yes": {
+        "price": 0.53,
+        "token_id": "token_yes_29"
+      },
+      "No": {
+        "price": 0.47,
+        "token_id": "token_no_29"
+      }
+    }
+  },
+  {
+    "id": "market_30",
+    "condition_id": "0x6cca06a3f32b7e626108064c56c291708a9028170a2df52a7708c05891e83171",
+    "question": "Will AI replace 10% of jobs by 2027?",
+    "category": "Tech",
+    "end_date": "2026-04-05T17:30:02.911646",
+    "active": true,
+    "liquidity": 72364.16,
+    "volume": 1887884.62,
+    "volume_24h": 41873.29,
+    "outcomes": {
+      "Yes": {
+        "price": 0.54,
+        "token_id": "token_yes_30"
+      },
+      "No": {
+        "price": 0.46,
+        "token_id": "token_no_30"
+      }
+    }
+  }
+]

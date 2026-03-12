@@ -1,0 +1,289 @@
+[
+  {
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "name": "gmanas",
+    "rank": 1,
+    "volume": 77132230.26523402,
+    "pnl": -1650190.5814817487
+  },
+  {
+    "wallet": "0xe594336603f4fb5d3ba4125a67021ab3b4347052",
+    "name": "0xE594336603F4fB5d3ba4125a67021ab3B4347052-1769022918519",
+    "rank": 2,
+    "volume": 54759840.43013035,
+    "pnl": 287573.76351288526
+  },
+  {
+    "wallet": "0x1979ae6b7e6534de9c4539d0c205e582ca637c9d",
+    "name": "0x1979ae6B7E6534dE9c4539D0c205E582cA637C9D-1769439463256",
+    "rank": 3,
+    "volume": 50078402.868278205,
+    "pnl": 359731.8411476597
+  },
+  {
+    "wallet": "0xee613b3fc183ee44f9da9c05f53e2da107e3debf",
+    "name": "sovereign2013",
+    "rank": 4,
+    "volume": 46582250.33030996,
+    "pnl": 239140.7915956215
+  },
+  {
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "name": "swisstony",
+    "rank": 5,
+    "volume": 46257112.342980996,
+    "pnl": 207490.36148648942
+  },
+  {
+    "wallet": "0xd0d6053c3c37e727402d84c14069780d360993aa",
+    "name": "k9Q2mX4L8A7ZP3R",
+    "rank": 6,
+    "volume": 40172598.98885617,
+    "pnl": 312506.3217640318
+  },
+  {
+    "wallet": "0x63ce342161250d705dc0b16df89036c8e5f9ba9a",
+    "name": "0x8dxd",
+    "rank": 7,
+    "volume": 38992554.53761925,
+    "pnl": 523670.5341442126
+  },
+  {
+    "wallet": "0xfedc381bf3fb5d20433bb4a0216b15dbbc5c6398",
+    "name": "c0O0O0OLI0O0O0",
+    "rank": 8,
+    "volume": 35788442.340951,
+    "pnl": 23062.564848731156
+  },
+  {
+    "wallet": "0x5d189e816b4149be00977c1a3c8840374aec4972",
+    "name": "gloriafoster",
+    "rank": 9,
+    "volume": 32497069.791623004,
+    "pnl": 2870.4834209767287
+  },
+  {
+    "wallet": "0x492442eab586f242b53bda933fd5de859c8a3782",
+    "name": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
+    "rank": 10,
+    "volume": 30542817.67523301,
+    "pnl": 3021270.4475997286
+  },
+  {
+    "wallet": "0xc257ea7e3a81ca8e16df8935d44d513959fa358e",
+    "name": "FollowMeABC123",
+    "rank": 11,
+    "volume": 30365666.458747007,
+    "pnl": -1539553.150223615
+  },
+  {
+    "wallet": "0x6480542954b70a674a74bd1a6015dec362dc8dc5",
+    "name": "tripping",
+    "rank": 12,
+    "volume": 26807612.351464003,
+    "pnl": 6843.365088854511
+  },
+  {
+    "wallet": "0x6031b6eed1c97e853c6e0f03ad3ce3529351f96d",
+    "name": "gabagool22",
+    "rank": 13,
+    "volume": 26266046.74100614,
+    "pnl": 99514.59135596221
+  },
+  {
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "name": "RN1",
+    "rank": 14,
+    "volume": 26191130.582912005,
+    "pnl": 83151.14107585233
+  },
+  {
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "name": "GamblingIsAllYouNeed",
+    "rank": 15,
+    "volume": 25007025.425391883,
+    "pnl": 95517.59777877567
+  },
+  {
+    "wallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+    "name": "VeryLucky888",
+    "rank": 16,
+    "volume": 24469517.549973015,
+    "pnl": 27710.59153228812
+  },
+  {
+    "wallet": "0x0ea574f3204c5c9c0cdead90392ea0990f4d17e4",
+    "name": "0x0eA574F3204C5c9C0cdEad90392ea0990F4D17e4-1769515653156",
+    "rank": 17,
+    "volume": 24368957.251146026,
+    "pnl": 221300.65201649466
+  },
+  {
+    "wallet": "0x58776759ee5c70a915138706a1308add8bc5d894",
+    "name": "Donghui",
+    "rank": 18,
+    "volume": 24095577.647813007,
+    "pnl": -91690.22522809223
+  },
+  {
+    "wallet": "0xe20a1538293903b746ffe6c4ce2d5c3c0300e469",
+    "name": "gopatriots",
+    "rank": 19,
+    "volume": 23968910.244091008,
+    "pnl": -2587894.6402207534
+  },
+  {
+    "wallet": "0xe60a9b0be459d9849bc2339dac20517639ae6a47",
+    "name": "0xb7511d7b0dcb75ffad0507cbac7223653d08915",
+    "rank": 20,
+    "volume": 23827686.976526,
+    "pnl": 224620.92563041445
+  },
+  {
+    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+    "name": "beachboy4",
+    "rank": 21,
+    "volume": 2099450.8551480933,
+    "pnl": 2099450.8551480933
+  },
+  {
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "name": "kch123",
+    "rank": 22,
+    "volume": 2030581.0822177252,
+    "pnl": 2030581.0822177252
+  },
+  {
+    "wallet": "0x003932bc605249fbfeb9ea6c3e15ec6e868a6beb",
+    "name": "PuzzleTricker",
+    "rank": 23,
+    "volume": 1917825.6764570952,
+    "pnl": 1917825.6764570952
+  },
+  {
+    "wallet": "0xd25c72ac0928385610611c8148803dc717334d20",
+    "name": "FeatherLeather",
+    "rank": 24,
+    "volume": 1756562.2812791325,
+    "pnl": 1756562.2812791325
+  },
+  {
+    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+    "name": "DrPufferfish",
+    "rank": 25,
+    "volume": 1601286.547349961,
+    "pnl": 1601286.547349961
+  },
+  {
+    "wallet": "0x876426b52898c295848f56760dd24b55eda2604a",
+    "name": "0x876426B52898C295848f56760dd24B55Eda2604a-1770663426746",
+    "rank": 26,
+    "volume": 1554380.7971780002,
+    "pnl": 1554380.7971780002
+  },
+  {
+    "wallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+    "name": "anoin123",
+    "rank": 27,
+    "volume": 1240922.2877938305,
+    "pnl": 1240922.2877938305
+  },
+  {
+    "wallet": "0x03e8a544e97eeff5753bc1e90d46e5ef22af1697",
+    "name": "weflyhigh",
+    "rank": 28,
+    "volume": 1219567.8985123716,
+    "pnl": 1219567.8985123716
+  },
+  {
+    "wallet": "0x14964aefa2cd7caff7878b3820a690a03c5aa429",
+    "name": "gmpm",
+    "rank": 29,
+    "volume": 1213880.6584193625,
+    "pnl": 1213880.6584193625
+  },
+  {
+    "wallet": "0x1d8a377c5020f612ce63a0a151970df64baae842",
+    "name": "0x1D8A377C5020f612cE63a0a151970DF64BAAE842-1761442049319",
+    "rank": 30,
+    "volume": 878838.2748071006,
+    "pnl": 878838.2748071006
+  },
+  {
+    "wallet": "0xd0b4c4c020abdc88ad9a884f999f3d8cff8ffed6",
+    "name": "MrSparklySimpsons",
+    "rank": 31,
+    "volume": 840380.1842125014,
+    "pnl": 840380.1842125014
+  },
+  {
+    "wallet": "0x9976874011b081e1e408444c579f48aa5b5967da",
+    "name": "BWArmageddon",
+    "rank": 32,
+    "volume": 667567.6059126771,
+    "pnl": 667567.6059126771
+  },
+  {
+    "wallet": "0x4bd74aef0ee5f1ec0718890f55c15f047e28373e",
+    "name": "tbs8t",
+    "rank": 33,
+    "volume": 655002.3477339634,
+    "pnl": 655002.3477339634
+  },
+  {
+    "wallet": "0x13414a77a4be48988851c73dfd824d0168e70853",
+    "name": "WOMENBESHOPPING",
+    "rank": 34,
+    "volume": 480810.9677180897,
+    "pnl": 480810.9677180897
+  },
+  {
+    "wallet": "0x7744bfd749a70020d16a1fcbac1d064761c9999e",
+    "name": "chungguskhan",
+    "rank": 35,
+    "volume": 465629.5894105718,
+    "pnl": 465629.5894105718
+  },
+  {
+    "wallet": "0x91654fd592ea5339fc0b1b2f2b30bfffa5e75b98",
+    "name": "C.SIN",
+    "rank": 36,
+    "volume": 453553.39644463116,
+    "pnl": 453553.39644463116
+  },
+  {
+    "wallet": "0xccb290b1c145d1c95695d3756346bba9f1398586",
+    "name": "hioa",
+    "rank": 37,
+    "volume": 425901.8006934083,
+    "pnl": 425901.8006934083
+  },
+  {
+    "wallet": "0x9c16127eccf031df45461ef1e04b52ea286a09cb",
+    "name": "Vanchalkenstein",
+    "rank": 38,
+    "volume": 396911.7234280281,
+    "pnl": 396911.7234280281
+  },
+  {
+    "wallet": "0x02227b8f5a9636e895607edd3185ed6ee5598ff7",
+    "name": "HorizonSplendidView",
+    "rank": 39,
+    "volume": 0,
+    "pnl": 0
+  },
+  {
+    "wallet": "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a",
+    "name": "bossoskil1",
+    "rank": 40,
+    "volume": 0,
+    "pnl": 0
+  },
+  {
+    "wallet": "0x0b9cae2b0dfe7a71c413e0604eaac1c352f87e44",
+    "name": "MCgenius",
+    "rank": 41,
+    "volume": 0,
+    "pnl": 0
+  }
+]

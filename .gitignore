@@ -17,3 +17,6 @@ __pycache__/
 # Logs/temp
 *.log
 tmp/
+
+# skill temp token files
+skills/**/.token

@@ -1,0 +1,85 @@
+{
+  "before": {
+    "count": 102,
+    "balance": 7.89
+  },
+  "after": {
+    "count": 25,
+    "balance": 753.01
+  },
+  "closed_count": 77,
+  "released_funds": 745.12,
+  "cleanup_pnl": -40.48,
+  "kept_top10": [
+    {
+      "rank": 1,
+      "score": 17,
+      "market": "Will UNRWA win the Nobel Peace Prize in 2026?",
+      "outcome": "No",
+      "size": 10.0
+    },
+    {
+      "rank": 2,
+      "score": 16,
+      "market": "Will Jasmine Crockett be the Democratic nominee for Senate i",
+      "outcome": "No",
+      "size": 10.0
+    },
+    {
+      "rank": 3,
+      "score": 14,
+      "market": "Khamenei out as Supreme Leader of Iran by March 31?",
+      "outcome": "No",
+      "size": 10.0
+    },
+    {
+      "rank": 4,
+      "score": 14,
+      "market": "US strikes Iran by February 20, 2026?",
+      "outcome": "No",
+      "size": 10.0
+    },
+    {
+      "rank": 5,
+      "score": 12,
+      "market": "Will Trump sell 25k-100k Gold Cards in 2026?",
+      "outcome": "No",
+      "size": 13.0
+    },
+    {
+      "rank": 6,
+      "score": 12,
+      "market": "Will John Cornyn win the 2026 Texas Republican Primary?",
+      "outcome": "No",
+      "size": 10.0
+    },
+    {
+      "rank": 7,
+      "score": 11,
+      "market": "Will James Talarico be the Democratic nominee for Senate in ",
+      "outcome": "No",
+      "size": 10.0
+    },
+    {
+      "rank": 8,
+      "score": 10,
+      "market": "Will Waymo launch in Washington DC by June 30 2026?",
+      "outcome": "No",
+      "size": 10.0
+    },
+    {
+      "rank": 9,
+      "score": 10,
+      "market": "Will John Berman be the Republican nominee for Senate in Iow",
+      "outcome": "No",
+      "size": 10.0
+    },
+    {
+      "rank": 10,
+      "score": 10,
+      "market": "Will Apple be the largest company in the world by market cap",
+      "outcome": "No",
+      "size": 10.0
+    }
+  ]
+}

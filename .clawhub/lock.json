@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "skills": {
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1770803375381
+    },
+    "polymarket-odds": {
+      "version": "1.0.0",
+      "installedAt": 1771169769218
+    },
+    "crypto-market-data": {
+      "version": "1.0.2",
+      "installedAt": 1771169826632
+    },
+    "crypto-gold-monitor": {
+      "version": "1.2.1",
+      "installedAt": 1771169892584
+    },
+    "cls-news-scraper": {
+      "version": "1.0.0",
+      "installedAt": 1771170001487
+    },
+    "ai-news-collectors": {
+      "version": "1.0.0",
+      "installedAt": 1771170022383
+    },
+    "openclaw-backup": {
+      "version": "1.0.0",
+      "installedAt": 1771170200418
+    },
+    "deep-scraper": {
+      "version": "1.0.1",
+      "installedAt": 1771170376173
+    }
+  }
+}
