@@ -24,7 +24,7 @@ import requests
 from datetime import datetime, timezone, timedelta
 from collections import defaultdict
 
-MAX_OPEN_POSITIONS = 40  # v10: 30→40 容纳更多仓位
+MAX_OPEN_POSITIONS = 15  # v12: 40→15 集中仓位
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
 SIM_PORTFOLIO_PATH = os.path.join(DATA_DIR, "sim_portfolio.json")
@@ -128,20 +128,24 @@ except ImportError as e:
     V12_SWAP = False
     print(f"  [v12] position_review 不可用: {e}", flush=True)
 
-# ── v11: 短线优先参数 ──
-SHORT_TERM_SIZE_MIN = 40     # 短线最小$40
-SHORT_TERM_SIZE_MAX = 60     # v11: 50→60
+# ── v12: 保守风控参数 ──
+SHORT_TERM_SIZE_MIN = 30     # v12: 短线最小$30
+SHORT_TERM_SIZE_MAX = 40     # v12: 短线最大$40
 LONG_TERM_SIZE_MIN = 30
 LONG_TERM_SIZE_MAX = 50
-SHORT_TERM_BUDGET_PCT = 0.70  # v11: 短线 70%
-LONG_TERM_BUDGET_PCT = 0.20   # v11: 长线 20%
-SAFETY_CUSHION_PCT = 0.10     # v11: 安全垫 10%
-MAX_LONG_POSITIONS = 10        # v11: 长线最多10笔
-MAX_SHORT_POSITIONS = 30       # v11: 短线最多30笔
-AGGRESSIVE_CASH_THRESHOLD = 0.30   # v11: 余额>30%就降低门槛
-AGGRESSIVE_SCAN_THRESHOLD = 0.40   # v11: 余额>40%就主动扫描
-AGGRESSIVE_SHORT_SIZE_MAX = 60     # 短线上限$60
-PROACTIVE_PROBE_SIZE = 30          # v11: 试探仓位$20→$30
+SHORT_TERM_BUDGET_PCT = 0.70
+LONG_TERM_BUDGET_PCT = 0.20
+SAFETY_CUSHION_PCT = 0.10
+MAX_LONG_POSITIONS = 5         # v12: 长线最多5笔
+MAX_SHORT_POSITIONS = 10       # v12: 短线最多10笔
+AGGRESSIVE_CASH_THRESHOLD = 0.50   # v12: 余额>50%才考虑加仓
+AGGRESSIVE_SCAN_THRESHOLD = 0.60   # v12: 余额>60%才主动扫描
+AGGRESSIVE_SHORT_SIZE_MAX = 40     # v12: 短线上限$40
+PROACTIVE_PROBE_SIZE = 20          # v12: 试探仓位$20
+
+# ── v12: 每日亏损熔断 ──
+DAILY_LOSS_LIMIT = 50.0            # 单日最大亏损 $50
+DAILY_LOSS_LIMIT_PCT = 0.05        # 或余额的 5%
 
 # ── v13: 主题去重限制 ──
 MAX_POSITIONS_PER_THEME = 2        # v13.1: 同一主题最多持有2笔（从3收紧）
@@ -156,6 +160,30 @@ THEME_KEYWORDS = {
     "starmer": ["starmer"],
     "venezuela": ["machado", "venezuela"],
 }
+
+def check_daily_loss_circuit_breaker(portfolio):
+    """
+    v12: 检查今日已实现亏损是否超过熔断线。
+    返回 True 表示触发熔断，应停止开新仓。
+    """
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today_realized_loss = 0.0
+    for trade in portfolio.get("trade_history", []):
+        trade_date = trade.get("date", "")[:10]
+        if trade_date == today:
+            pnl = trade.get("pnl", 0)
+            if pnl < 0:
+                today_realized_loss += pnl  # negative number
+
+    # 动态熔断线：取 $50 和余额5% 中较小的
+    balance = portfolio.get("balance", 0)
+    limit = min(DAILY_LOSS_LIMIT, balance * DAILY_LOSS_LIMIT_PCT)
+    if abs(today_realized_loss) >= limit:
+        log(f"  🚨 [v12] 每日亏损熔断触发！今日已亏 ${abs(today_realized_loss):.2f} >= 限额 ${limit:.2f}")
+        log(f"  🚨 [v12] 停止所有新开仓，仅执行平仓/止损")
+        return True
+    return False
+
 
 def _get_position_theme(title):
     """提取持仓的主题标签"""
@@ -754,15 +782,15 @@ def open_new_positions(portfolio, signals, market_prices):
         log(f"  [v11] 长线持仓已达上限 {MAX_LONG_POSITIONS}，跳过长线开仓")
         return new_positions
 
-    # v11: 闲置资金动态门槛
+    # v12: 闲置资金动态门槛（不再降到1人）
     total_assets = portfolio["balance"] + sum(p["size"] for p in portfolio["open_positions"])
     cash_ratio = portfolio["balance"] / total_assets if total_assets > 0 else 0
     if cash_ratio > AGGRESSIVE_SCAN_THRESHOLD:
-        dynamic_consensus = 1  # 余额>60%: 1人就开
-        log(f"  [v10] 闲置资金{cash_ratio:.0%}>60%，共识门槛降至1人")
+        dynamic_consensus = 2  # v12: 余额>60%也至少2人共识
+        log(f"  [v12] 闲置资金{cash_ratio:.0%}>60%，共识门槛降至2人")
     elif cash_ratio > AGGRESSIVE_CASH_THRESHOLD:
-        dynamic_consensus = 1  # 余额>50%: 1人就开
-        log(f"  [v10] 闲置资金{cash_ratio:.0%}>50%，共识门槛降至1人")
+        dynamic_consensus = 2  # v12: 余额>50%也至少2人共识
+        log(f"  [v12] 闲置资金{cash_ratio:.0%}>50%，共识门槛降至2人")
     else:
         dynamic_consensus = MIN_TRADER_CONSENSUS
 
@@ -2171,9 +2199,20 @@ def run_check():
             "follow": v5_follow_closed,
         }
 
-        # 7. 扫描开仓
+        # 7. 扫描开仓（v12: 先检查每日亏损熔断）
         log("\n[7/7] 扫描开仓...")
         new_positions = []
+
+        # v12: 每日亏损熔断检查
+        circuit_breaker_triggered = check_daily_loss_circuit_breaker(portfolio)
+        if circuit_breaker_triggered:
+            log("  [v12] 熔断已触发，跳过所有新开仓")
+            save_portfolio(portfolio)
+            # 仍然生成报告
+            all_closed = closed_today + stop_losses + take_profits
+            report = generate_check_report(portfolio, [], all_closed, stop_losses, take_profits, unrealized_pnl, v5_stats, priority_stats)
+            log(report)
+            return
 
         open_signals = []
         for sb in strong_buy_signals:

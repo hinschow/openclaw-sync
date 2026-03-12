@@ -97,32 +97,20 @@ def record_price(history, cid, outcome, current_price):
 
 def check_adverse_trend(history, cid, outcome, entry_price, current_price):
     """
-    检查价格是否连续5次朝不利方向移动 且 亏损>10%
-    避免正常波动误触发（v9: 从3次改为5次，增加亏损门槛）
+    v12: 硬止损 -5%，不再要求连续下跌。
+    亏损超过5%立即触发止损，避免小亏变大亏。
     """
-    key = f"{cid}_{outcome}"
-    record = history.get(key, {})
-    prices = record.get("prices", [])
-
-    if len(prices) < 5:
+    if entry_price <= 0:
         return False
-
-    # 取最近5次价格（包括当前）
-    recent = prices[-5:]
-
-    # 检查是否连续下跌（对买入方不利）
-    all_declining = all(recent[i] > recent[i+1] for i in range(len(recent)-1))
-
-    # 必须亏损超过10%才触发（避免微亏误退）
-    loss_pct = (current_price - entry_price) / entry_price if entry_price > 0 else 0
-    if all_declining and loss_pct < -0.10:
+    loss_pct = (current_price - entry_price) / entry_price
+    # v12: 硬止损 -5%（之前要求连续5次下跌 + 亏损>10%，太宽松）
+    if loss_pct < -0.05:
         return True
-
     return False
 
 
-def check_rapid_gain(entry_price, current_price, threshold=0.20):
-    """检查是否快速上涨超过阈值（v9: 从30%降到20%，更早锁定利润）"""
+def check_rapid_gain(entry_price, current_price, threshold=0.12):
+    """v12: 从20%降到12%，更早锁定利润，改善盈亏比"""
     if entry_price <= 0:
         return False
     gain_pct = (current_price - entry_price) / entry_price
@@ -198,7 +186,7 @@ def analyze_momentum(open_positions):
 
         pnl_pct = (current_price - entry_price) / entry_price if entry_price > 0 else 0
 
-        # 规则1: 连续5次不利方向 且 亏损>10% → 提前止损
+        # 规则1: v12 硬止损 -5% → 立即止损
         if check_adverse_trend(history, cid, outcome, entry_price, current_price):
             adverse_count += 1
             momentum_exits.append({
@@ -209,12 +197,12 @@ def analyze_momentum(open_positions):
                 "entry_price": entry_price,
                 "current_price": current_price,
                 "pnl_pct": round(pnl_pct * 100, 2),
-                "reason": "adverse_trend_5x_loss10pct",
+                "reason": "hard_stop_loss_5pct",
             })
             continue  # 已标记退出，不再检查其他规则
 
-        # 规则2: 快速上涨超过+20% → 部分止盈（卖出50%）（v9: 从30%降到20%）
-        if check_rapid_gain(entry_price, current_price, 0.20):
+        # 规则2: v12 快速上涨超过+12% → 部分止盈（卖出50%）
+        if check_rapid_gain(entry_price, current_price, 0.12):
             rapid_gain_count += 1
             partial_takes.append({
                 "type": "partial_take",
@@ -225,7 +213,7 @@ def analyze_momentum(open_positions):
                 "current_price": current_price,
                 "pnl_pct": round(pnl_pct * 100, 2),
                 "sell_ratio": 0.5,  # 卖出50%
-                "reason": "rapid_gain_20pct",
+                "reason": "rapid_gain_12pct",
             })
 
         # 规则3: 距离到期<48小时且盈利>5% → 全部止盈（v9: 48h+5%门槛）

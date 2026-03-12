@@ -145,10 +145,10 @@ def strategy_catalyst(elite_traders, existing_cids=None):
         if batch_idx + BATCH < total:
             time.sleep(0.5)
 
-    # v10: 1 人精英大额买入就跟（之前2人）
+    # v12: 恢复至少2人共识才跟（1人噪声太大）
     for key, data in market_buyers.items():
         num_traders = len(data["traders"])
-        if num_traders >= 1:
+        if num_traders >= 2:
             avg_price = sum(data["prices"]) / len(data["prices"])
             confidence = min(num_traders / 5.0, 1.0)
             signals.append({
@@ -158,8 +158,8 @@ def strategy_catalyst(elite_traders, existing_cids=None):
                 "outcome": data["outcome"],
                 "current_price": round(avg_price, 4),
                 "strategy": "catalyst",
-                "target_profit": 0.15,
-                "stop_loss": -0.10,
+                "target_profit": 0.08,
+                "stop_loss": -0.05,
                 "max_hold_hours": 48,
                 "confidence": round(confidence, 2),
                 "num_traders": num_traders,
@@ -253,8 +253,8 @@ def strategy_catalyst(elite_traders, existing_cids=None):
                         "outcome": outcome,
                         "current_price": round(price, 4),
                         "strategy": "catalyst_volume_spike",
-                        "target_profit": 0.12,
-                        "stop_loss": -0.08,
+                        "target_profit": 0.08,
+                        "stop_loss": -0.05,
                         "max_hold_hours": 48,
                         "confidence": round(confidence, 2),
                         "num_traders": 0,
@@ -279,8 +279,9 @@ def strategy_catalyst(elite_traders, existing_cids=None):
 
 def strategy_reversion(existing_cids=None):
     """
-    扫描活跃市场，找24h价格变动>5%的过度波动市场。
-    v11: 波动门槛 8%→5%，扫描范围 top 25→top 50。
+    扫描活跃市场，找24h价格变动>10%的过度波动市场。
+    v12: 波动门槛 5%→10%（减少噪声），要求24h交易量>$50k，
+    收紧止损-5%、止盈+8%。
     """
     log("  [reversion] 扫描过度波动市场...")
     if existing_cids is None:
@@ -288,7 +289,6 @@ def strategy_reversion(existing_cids=None):
 
     signals = []
 
-    # v11: 扫描 top 50 活跃市场
     all_markets = []
     for offset in [0, 25, 50]:
         data = api_get(
@@ -317,6 +317,18 @@ def strategy_reversion(existing_cids=None):
 
         slug = m.get("slug", "")
 
+        # v12: 要求24h交易量>$50k（确认有足够流动性）
+        vol24 = 0
+        for field in ["volume24hr", "volume_24h"]:
+            try:
+                vol24 = float(m.get(field, 0) or 0)
+                if vol24 > 0:
+                    break
+            except (ValueError, TypeError):
+                pass
+        if vol24 < 50000:
+            continue
+
         # 尝试多种方式获取24h价格变动
         price_change = None
         for field in ["oneDayPriceChange", "one_day_price_change", "priceDelta24h"]:
@@ -329,21 +341,12 @@ def strategy_reversion(existing_cids=None):
                     pass
 
         if price_change is None:
-            yes_price = price_map.get("Yes", 0)
-            spread = m.get("spread", 0)
-            try:
-                spread = float(spread) if spread else 0
-            except (ValueError, TypeError):
-                spread = 0
-            if spread > 0.10 and 0.10 < yes_price < 0.85:
-                price_change = -spread
-            else:
-                continue
+            continue  # v12: 无法确认价格变动则跳过，不用spread猜测
 
-        # v11: 波动门槛 8%→5%
-        if price_change < -0.05:
+        # v12: 波动门槛提高到 10%（减少噪声交易）
+        if price_change < -0.10:
             yes_price = price_map.get("Yes", 0)
-            if 0.10 < yes_price < 0.85:
+            if 0.15 < yes_price < 0.80:
                 confidence = min(abs(price_change) / 0.25, 1.0)
                 signals.append({
                     "market": title,
@@ -352,15 +355,15 @@ def strategy_reversion(existing_cids=None):
                     "outcome": "Yes",
                     "current_price": round(yes_price, 4),
                     "strategy": "reversion",
-                    "target_profit": 0.15,
-                    "stop_loss": -0.10,
+                    "target_profit": 0.08,
+                    "stop_loss": -0.05,
                     "max_hold_hours": 48,
                     "confidence": round(confidence, 2),
                     "price_change_24h": round(price_change, 4),
                 })
-        elif price_change > 0.05:
+        elif price_change > 0.10:
             no_price = price_map.get("No", 0)
-            if 0.10 < no_price < 0.85:
+            if 0.15 < no_price < 0.80:
                 confidence = min(abs(price_change) / 0.25, 1.0)
                 signals.append({
                     "market": title,
@@ -369,8 +372,8 @@ def strategy_reversion(existing_cids=None):
                     "outcome": "No",
                     "current_price": round(no_price, 4),
                     "strategy": "reversion",
-                    "target_profit": 0.15,
-                    "stop_loss": -0.10,
+                    "target_profit": 0.08,
+                    "stop_loss": -0.05,
                     "max_hold_hours": 48,
                     "confidence": round(confidence, 2),
                     "price_change_24h": round(price_change, 4),
@@ -398,7 +401,7 @@ def strategy_expiry(existing_cids=None):
 
     signals = []
     now = datetime.now(timezone.utc)
-    expiry_deadline = now + timedelta(days=14)  # v11: 7天→14天
+    expiry_deadline = now + timedelta(days=7)  # v12: 14天→7天（缩短窗口降低不确定性）
 
     # v11: 获取活跃市场 top 75
     all_markets = []
@@ -417,7 +420,7 @@ def strategy_expiry(existing_cids=None):
         log("  [expiry] 无法获取市场数据")
         return signals
 
-    log(f"  [expiry] 获取到 {len(all_markets)} 个活跃市场，筛选14天内到期...")
+    log(f"  [expiry] 获取到 {len(all_markets)} 个活跃市场，筛选7天内到期...")
 
     for m in all_markets:
         title = m.get("question", "") or m.get("title", "")
@@ -440,7 +443,7 @@ def strategy_expiry(existing_cids=None):
                     continue
             else:
                 continue
-            # v11: 必须在未来且14天内到期
+            # v12: 必须在未来且7天内到期
             if end_date <= now or end_date > expiry_deadline:
                 continue
         except Exception:
@@ -454,8 +457,8 @@ def strategy_expiry(existing_cids=None):
         yes_price = price_map.get("Yes", 0)
         no_price = price_map.get("No", 0)
 
-        # v11: 高确定性门槛 0.75→0.70
-        if yes_price > 0.70:
+        # v12: 高确定性门槛 0.70→0.80（只买高胜率的）
+        if yes_price > 0.80:
             potential = 1.0 - yes_price  # 潜在收益
             if potential < 0.02:
                 continue  # 太接近1了，收益太低
@@ -473,8 +476,8 @@ def strategy_expiry(existing_cids=None):
                 "confidence": round(confidence, 2),
                 "potential_gain": round(potential, 4),
             })
-        # v11: 高确定性: No > 0.70 → 买No
-        elif no_price > 0.70:
+        # v12: 高确定性: No > 0.80 → 买No
+        elif no_price > 0.80:
             potential = 1.0 - no_price
             if potential < 0.02:
                 continue
@@ -506,10 +509,12 @@ def strategy_expiry(existing_cids=None):
 
 def strategy_high_volume(existing_cids=None):
     """
-    v11: 扫描24h交易量top50的活跃市场，
-    找到价格在0.15-0.85区间的（有波动空间），自动开仓。
-    不限数量，每次check都扫描。小仓位$30。
+    v12: 禁用。高交易量不等于有方向性，盲目开仓是亏损主因之一。
+    保留代码但直接返回空列表。
     """
+    log("  [high_volume] v12: 策略已禁用（高交易量≠有方向性）")
+    return []
+    # --- 以下为原始代码，保留供参考 ---
     log("  [high_volume] 扫描高交易量活跃市场...")
     if existing_cids is None:
         existing_cids = set()
@@ -594,9 +599,13 @@ def strategy_high_volume(existing_cids=None):
 
 def strategy_arbitrage(existing_cids=None):
     """
-    v11: 扫描同一事件的多个相关市场，找价格不一致。
-    例如 "X by March" Yes=0.30 但 "X by June" Yes=0.25 → June应>=March，买June。
+    v12: 禁用。时间序列套利逻辑过于简化——标题日期解析不可靠，
+    且 "later deadline >= earlier price" 假设忽略了市场条件变化。
+    保留代码但直接返回空列表。
     """
+    log("  [arbitrage] v12: 策略已禁用（逻辑不可靠）")
+    return []
+    # --- 以下为原始代码，保留供参考 ---
     log("  [arbitrage] 扫描价差套利机会...")
     if existing_cids is None:
         existing_cids = set()

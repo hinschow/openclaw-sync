@@ -12,10 +12,10 @@ MAX_TRADE_AMOUNT = 10.0     # 最大交易金额 (USDC)
 FOLLOW_THRESHOLD = 0.6      # 跟单信号阈值（60%以上头部交易员同方向才跟）
 MIN_LIQUIDITY = 5000        # 最低流动性要求
 
-# 持仓管理参数 (v11: 短线优先)
-MAX_POSITIONS = 40           # 总最大持仓数
-MAX_LONG_POSITIONS = 10      # v11: 长线最多10笔
-MAX_SHORT_POSITIONS = 30     # v11: 短线最多30笔
+# 持仓管理参数 (v12: 减少持仓数，集中仓位)
+MAX_POSITIONS = 15           # v12: 总最大持仓数 40→15（集中精力）
+MAX_LONG_POSITIONS = 5       # v12: 长线最多5笔
+MAX_SHORT_POSITIONS = 10     # v12: 短线最多10笔
 MIN_POSITION_SIZE = 30       # 最小单笔仓位 $30
 MAX_POSITION_SIZE = 50       # 最大单笔仓位 $50
 MIN_TRADER_CONSENSUS = 3     # 默认最少精英交易员共识人数
@@ -48,8 +48,8 @@ EXCLUDED_KEYWORDS_V8 = [
 ]
 
 # 短线交易参数 (v11: 短线优先)
-SHORT_TERM_POSITION_SIZE_MIN = 40   # v11: 短线最小$40
-SHORT_TERM_POSITION_SIZE_MAX = 60   # v11: 短线最大$60
+SHORT_TERM_POSITION_SIZE_MIN = 30   # v12: 短线最小$30（降低风险敞口）
+SHORT_TERM_POSITION_SIZE_MAX = 40   # v12: 短线最大$40
 LONG_TERM_POSITION_SIZE_MIN = 30    # 保持
 LONG_TERM_POSITION_SIZE_MAX = 50    # 保持
 SHORT_TERM_BUDGET_PCT = 0.70        # v11: 短线 70%
@@ -57,17 +57,22 @@ LONG_TERM_BUDGET_PCT = 0.20         # v11: 长线 20%
 SAFETY_BUFFER_PCT = 0.10            # v11: 安全垫 10%
 TARGET_UTILIZATION = 0.90           # v11: 目标资金利用率 90%
 
-# v11: 激进模式参数
-AGGRESSIVE_CASH_THRESHOLD = 0.30    # v11: 余额>30%就降低门槛
-AGGRESSIVE_SCAN_THRESHOLD = 0.40    # v11: 余额>40%就主动扫描
-AGGRESSIVE_SHORT_SIZE_MAX = 60      # 短线单笔上限$60
-CATALYST_MIN_CONSENSUS = 1          # 催化剂1人精英就跟
-REVERSION_MIN_CHANGE = 0.05         # v11: 回归波动门槛 8%→5%
-EXPIRY_MIN_PRICE = 0.70             # v11: 到期收割门槛 0.75→0.70
-EXPIRY_WINDOW_DAYS = 14             # v11: 到期窗口 7天→14天
-PROACTIVE_SCAN_LIMIT = 50           # 主动扫描市场数
-PROACTIVE_PROBE_SIZE = 30           # v11: 试探仓位 $20→$30
-VOLUME_SPIKE_THRESHOLD = 2.0        # v11: 24h交易量放大>200%算催化剂
+# v12: 保守模式（不再激进加仓）
+AGGRESSIVE_CASH_THRESHOLD = 0.50    # v12: 余额>50%才考虑加仓
+AGGRESSIVE_SCAN_THRESHOLD = 0.60    # v12: 余额>60%才主动扫描
+AGGRESSIVE_SHORT_SIZE_MAX = 40      # v12: 短线单笔上限$40
+CATALYST_MIN_CONSENSUS = 2          # v12: 催化剂至少2人共识
+REVERSION_MIN_CHANGE = 0.10         # v12: 回归波动门槛 5%→10%
+EXPIRY_MIN_PRICE = 0.80             # v12: 到期收割门槛 0.70→0.80
+EXPIRY_WINDOW_DAYS = 7              # v12: 到期窗口 14天→7天
+PROACTIVE_SCAN_LIMIT = 30           # v12: 主动扫描市场数 50→30
+PROACTIVE_PROBE_SIZE = 20           # v12: 试探仓位 $30→$20（降低风险）
+VOLUME_SPIKE_THRESHOLD = 3.0        # v12: 24h交易量放大>300%才算催化剂
+
+# v12: 每日亏损熔断
+DAILY_LOSS_LIMIT = 50.0             # 单日最大亏损 $50
+DAILY_LOSS_LIMIT_PCT = 0.05         # 或余额的 5%
+MAX_DRAWDOWN_PCT = 0.15             # 最大回撤 15%（从峰值算）
 
 # 内存优化参数
 MAX_TRACKED_TRADERS = 30     # 最多追踪30个交易员（按PnL排序取前30）
